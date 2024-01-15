@@ -224,6 +224,9 @@ button.chip:hover {
 .margin-t-0 {
     margin-top: 0;
 }
+.margin-b-0 {
+    margin-bottom: 0;
+}
 
 .margin-tb-40 {
     margin-bottom: 80px;
