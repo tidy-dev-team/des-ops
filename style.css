@@ -319,7 +319,18 @@ button.chip:hover {
 .full-radius {
     border-radius: 9999px;
 }
-
+.right-div{
+    position: relative;
+}
+.right-div::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    right: -24px;
+    top: 0;
+    background: #CECECE;
+}
 /* Semantic */
 
 hr {
