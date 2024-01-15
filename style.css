@@ -1,0 +1,400 @@
+@import url('fonts/font-noto.css');
+@import url('fonts/font-haas.css');
+
+/* Local */
+
+:root {
+    --text-size: 16px;
+    --ops-text: #101010;
+    --ops-white: #FFFAF4;
+    --ops-select: #FFED4B;
+}
+
+::selection {
+    background-color: var(--ops-select);
+}
+
+html {
+    background-color: #FFEDBE;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: var(--text-size);
+    background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
+}
+
+#wrapper {
+    width: calc(100% - 160px);
+    padding: 24px 80px;
+    color: var(--ops-text);
+}
+
+/* Classes */
+
+button.chip {
+    padding: 6px 14px;
+    border: 1px solid var(--ops-text);
+    width: fit-content;
+    border-radius: 9999px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    background-color: var(--ops-white);
+    color: var(--ops-text);
+    font-size: calc(var(--text-size) - (var(--text-size) / 4));
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: calc(24vw - 200px);
+}
+
+button.chip:hover {
+    padding: 6px 14px;
+    border: 1px solid;
+    width: fit-content;
+    border-radius: 9999px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: var(--ops-white);
+    border: 1px solid var(--ops-text);
+    background-color: var(--ops-text);
+}
+
+.avatar {
+    border-radius: 9999px;
+    width: 48px;
+    height: 48px;
+}
+
+.icon-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-button .icon {
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    background-image: var(--url);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-72 {
+    width: 72px;
+    height: 72px;
+    aspect-ratio: 1 / 1;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+}
+
+.input-wrapper {
+    border: 1px solid var(--ops-text);
+    border-radius: 9999px;
+    width: fit-content;
+    padding: 4px;
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 12px;
+}
+
+.input-wrapper input::placeholder {
+    color: var(--ops-text);
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+}
+
+/* Utility */
+
+.text-center {
+    text-align: center;
+}
+
+.darker-hr {
+    background: #696969;
+}
+
+.no-link {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+.no-link:hover {
+    text-decoration: underline;
+    text-underline-offset: var(--text-size);
+}
+
+.no-link:focus-visible {
+    outline: none;
+    text-decoration: underline;
+    text-underline-offset: var(--text-size);
+}
+
+.c-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-flex-start {
+    display: flex;
+    flex-direction: column;
+}
+
+.r-flex-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-flex-start {
+    display: flex;
+    flex-direction: row;
+}
+
+.r-flex-end {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.g-40 {
+    gap: 40px;
+}
+
+.g-20 {
+    gap: 20px;
+}
+
+.g-12 {
+    gap: 12px;
+}
+
+.g-4 {
+    gap: 4px;
+}
+
+
+.max-50 {
+    max-width: 50%;
+}
+
+.padding-tb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padding-b-80 {
+    padding-bottom: 80px;
+}
+
+.margin-tb-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margin-t-0 {
+    margin-top: 0;
+}
+
+.margin-b-40 {
+    margin-bottom: 40px;
+}
+
+.margin-t-12 {
+    margin-top: 12px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.max-third {
+    width: calc(33% - 40px);
+    max-width: 31%;
+}
+
+.radius-8 {
+    border-radius: 8px;
+}
+
+.full-radius {
+    border-radius: 9999px;
+}
+
+/* Semantic */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #A2A2A2;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+button {
+    position: relative;
+    padding: 20px 40px;
+    border-radius: 999px;
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid var(--ops-text);
+}
+
+button:hover {
+    background-color: var(--ops-white);
+    color: var(--ops-text);
+}
+
+button:focus-visible {
+    outline: 3px solid var(--ops-text);
+    outline-offset: 1px;
+}
+
+button:hover .icon {
+    filter: invert(100%);
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
+    mix-blend-mode: darken;
+    pointer-events: none;
+}
+
+@media only screen and (max-width: 800px) {
+    :root {
+        --text-size: 10px;
+    }
+
+    #wrapper {
+        padding: 24px;
+        width: calc(100% - 48px);
+    }
+
+    .r-flex-start,
+    .r-flex-end {
+        flex-direction: column;
+    }
+
+    .r-flex-mob {
+        flex-direction: row;
+    }
+
+    .logo img {
+        max-width: 35vw;
+    }
+
+    h3 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    .max-50 {
+        max-width: 80%;
+    }
+
+    .max-third {
+        width: 100%;
+        max-width: unset;
+    }
+
+    button.chip {
+        font-size: 1.2em;
+        max-width: unset;
+    }
+
+    .mob-1-line {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 70vw;
+    }
+
+    .g-8-mob {
+        gap: 8px;
+    }
+
+    .g-32-mob {
+        gap: 32px;
+    }
+
+    .icon-72 {
+        height: 48px;
+        width: 48px;
+    }
+
+    .input-wrapper {
+        flex-direction: row;
+        width: calc(100% - 12px);
+    }
+
+    .input-wrapper input {
+        margin: 0 24px;
+        flex-grow: 1;
+    }
+
+    .flex-start-mob {
+        align-items: flex-start;
+    }
+
+    button,
+    a,
+    input {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+}

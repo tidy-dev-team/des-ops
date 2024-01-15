@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
+
+.noto, .noto-regular{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
+}
+.noto-medium{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 500;
+}
+.noto-semi, .noto-semiBold, .noto-semi-bold{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 600;
+}
+
+.noto-bold{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700;
+}
