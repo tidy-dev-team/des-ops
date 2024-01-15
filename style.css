@@ -297,6 +297,9 @@ h3 {
     color: var(--ops-white);
     border-radius: 8px;
 }
+a:hover.black-link .black{
+    opacity: 0.9;
+}
 
 button {
     position: relative;
