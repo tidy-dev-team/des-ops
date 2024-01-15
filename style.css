@@ -295,6 +295,9 @@ button.chip:hover {
 .margin-t-40 {
     margin-top: 40px;
 }
+.pre-warp{
+    white-space: pre-line;
+}
 
 .width-50 {
     width: 50%;
