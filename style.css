@@ -64,6 +64,10 @@ button.chip:hover {
     background-color: var(--ops-text);
 }
 
+.description{
+    color: #8C8C8C;
+}
+
 .avatar {
     border-radius: 9999px;
     width: 48px;
