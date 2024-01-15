@@ -123,6 +123,10 @@ button.chip:hover {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .darker-hr {
     background: #696969;
 }
@@ -221,6 +225,11 @@ button.chip:hover {
     margin-top: 0;
 }
 
+.margin-tb-40 {
+    margin-bottom: 80px;
+    margin-top: 40px;
+}
+
 .margin-b-40 {
     margin-bottom: 40px;
 }
@@ -266,6 +275,15 @@ h2 {
 
 h3 {
     font-size: 1.5em;
+}
+
+.font-4{
+    font-size: 4em;
+}
+.black{
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+    border-radius: 8px;
 }
 
 button {
