@@ -184,6 +184,10 @@ button.chip:hover {
     align-items: flex-end;
 }
 
+.grow{
+    flex-grow: 1;
+}
+
 .space-between {
     justify-content: space-between;
 }
