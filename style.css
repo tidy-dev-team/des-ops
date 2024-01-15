@@ -64,7 +64,7 @@ button.chip:hover {
     background-color: var(--ops-text);
 }
 
-.description{
+.gray {
     color: #8C8C8C;
 }
 
@@ -92,10 +92,12 @@ button.chip:hover {
     background-position: center;
     background-size: contain;
 }
-.no-link .icon{
+
+.no-link .icon {
     filter: invert(100%);
 }
-.rotate-180{
+
+.rotate-180 {
     transform: rotate(180deg);
 }
 
@@ -195,7 +197,7 @@ button.chip:hover {
     align-items: flex-end;
 }
 
-.flex-start{
+.flex-start {
     align-items: flex-start;
 }
 
@@ -274,6 +276,10 @@ button.chip:hover {
 
 .margin-t-40 {
     margin-top: 40px;
+}
+
+.width-50 {
+    width: 50%;
 }
 
 .full-width {
