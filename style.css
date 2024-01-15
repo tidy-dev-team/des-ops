@@ -160,6 +160,10 @@ button.chip:hover {
     text-underline-offset: var(--text-size);
 }
 
+.no-link.small:hover, .no-link.small:active{
+    text-underline-offset: 4px;
+}
+
 .c-flex-center {
     display: flex;
     flex-direction: column;
