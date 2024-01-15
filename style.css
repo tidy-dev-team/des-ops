@@ -276,6 +276,10 @@ button.chip:hover {
     margin-bottom: 40px;
 }
 
+.margin-b-12 {
+    margin-bottom: 12px;
+}
+
 .margin-t-12 {
     margin-top: 12px;
 }
