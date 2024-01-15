@@ -419,6 +419,10 @@ footer {
         align-items: flex-start;
     }
 
+    .black .r-flex-center{
+        flex-direction: column;
+    }
+
     button,
     a,
     input {
