@@ -159,6 +159,12 @@ button.chip:hover {
     display: flex;
     flex-direction: column;
 }
+.c-flex-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
 .r-flex-center {
     display: flex;
@@ -239,6 +245,9 @@ button.chip:hover {
 
 .margin-t-12 {
     margin-top: 12px;
+}
+.margin-t-40 {
+    margin-top: 40px;
 }
 
 .full-width {
