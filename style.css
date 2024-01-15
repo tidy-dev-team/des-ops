@@ -159,6 +159,7 @@ button.chip:hover {
     display: flex;
     flex-direction: column;
 }
+
 .c-flex-end {
     display: flex;
     flex-direction: column;
@@ -184,7 +185,7 @@ button.chip:hover {
     align-items: flex-end;
 }
 
-.grow{
+.grow {
     flex-grow: 1;
 }
 
@@ -234,6 +235,7 @@ button.chip:hover {
 .margin-t-0 {
     margin-top: 0;
 }
+
 .margin-b-0 {
     margin-bottom: 0;
 }
@@ -250,6 +252,7 @@ button.chip:hover {
 .margin-t-12 {
     margin-top: 12px;
 }
+
 .margin-t-40 {
     margin-top: 40px;
 }
@@ -293,15 +296,17 @@ h3 {
     font-size: 1.5em;
 }
 
-.font-4{
+.font-4 {
     font-size: 4em;
 }
-.black{
+
+.black {
     background-color: var(--ops-text);
     color: var(--ops-white);
     border-radius: 8px;
 }
-a:hover.black-link .black{
+
+a:hover.black-link .black {
     opacity: 0.9;
 }
 
@@ -343,10 +348,12 @@ footer {
     mix-blend-mode: darken;
     pointer-events: none;
 }
-.mob-hidden{
+
+.mob-hidden {
     display: block;
 }
-.mob-show{
+
+.mob-show {
     display: none;
 }
 
@@ -429,14 +436,15 @@ footer {
         align-items: flex-start;
     }
 
-    .black .r-flex-center{
+    .black .r-flex-center {
         flex-direction: column;
     }
 
-    .mob-hidden{
+    .mob-hidden {
         display: none;
     }
-    .mob-show{
+
+    .mob-show {
         display: block;
     }
 
