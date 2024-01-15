@@ -195,6 +195,10 @@ button.chip:hover {
     align-items: flex-end;
 }
 
+.flex-start{
+    align-items: flex-start;
+}
+
 .grow {
     flex-grow: 1;
 }
@@ -253,6 +257,11 @@ button.chip:hover {
 .margin-tb-40 {
     margin-bottom: 80px;
     margin-top: 40px;
+}
+
+.margin-tb-80 {
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .margin-b-40 {
