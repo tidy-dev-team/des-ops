@@ -291,6 +291,9 @@ button.chip:hover {
 .width-50 {
     width: 50%;
 }
+.line-150{
+    line-height: 150%;
+}
 
 .full-width {
     width: 100%;
