@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Design Ops Israel</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="join-sheets.js"></script>
+    <!-- <script src="join-sheets.js"></script> -->
   </head>
   <body>
     <div id="wrapper">
@@ -284,6 +284,22 @@
           <h3 class="noto-semi margin-tb-0">
             לקבלת תכנים ועדכונים וספאם שאנשים אוהבים :)
           </h3>
+          <form id="email-form" class="r-flex-start input-wrapper">
+            <input
+              type="email"
+              placeholder="המייל שלך פה"
+              class="haas-semi"
+              id="user-email"
+            />
+            <button type="submit" class="icon-button">
+              <div class="icon" style="--url: url(images/ic-arrow.svg)"></div>
+            </button>
+          </form>
+        </div>
+        <!-- <div class="c-flex-start g-20">
+          <h3 class="noto-semi margin-tb-0">
+            לקבלת תכנים ועדכונים וספאם שאנשים אוהבים :)
+          </h3>
           <div class="r-flex-start input-wrapper">
             <input
               type="email"
@@ -302,7 +318,7 @@
               value="NOTION+"
             />
           </div>
-        </div>
+        </div> -->
       </div>
 
       <hr class="darker-hr" />
@@ -317,4 +333,22 @@
       <footer></footer>
     </div>
   </body>
+  <script>
+    document
+      .getElementById("email-form")
+      .addEventListener("submit", function (e) {
+        e.preventDefault();
+        var userEmail = document.getElementById("user-email").value;
+        var url =
+          "https://script.google.com/macros/s/AKfycbz_FlL5yxZ8HSvXQsWYPArid0aGzfbcIs7XOl9Izz3Cokw2DOU5MrjEbgQYxpHsh1ZH/exec";
+        fetch(url, {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
+          body: "email=" + encodeURIComponent(userEmail),
+        });
+      });
+  </script>
 </html>
