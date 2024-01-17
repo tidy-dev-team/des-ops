@@ -25,7 +25,7 @@ function createNotionPage(title, email, position, company) {
         title: [
           {
             text: {
-              content: title,
+              content: '',
             },
           },
         ],
@@ -37,7 +37,7 @@ function createNotionPage(title, email, position, company) {
         rich_text: [
           {
             text: {
-              content: position,
+              content: '',
             },
           },
         ],
@@ -46,7 +46,7 @@ function createNotionPage(title, email, position, company) {
         rich_text: [
           {
             text: {
-              content: company,
+              content: '',
             },
           },
         ],
