@@ -160,7 +160,8 @@ button.chip:hover {
     text-underline-offset: var(--text-size);
 }
 
-.no-link.small:hover, .no-link.small:active{
+.no-link.small:hover,
+.no-link.small:active {
     text-underline-offset: 4px;
 }
 
@@ -237,9 +238,11 @@ button.chip:hover {
 .max-50 {
     max-width: 50%;
 }
+
 .max-70 {
     max-width: 70%;
 }
+
 .max-30 {
     max-width: 30%;
 }
@@ -296,14 +299,16 @@ button.chip:hover {
 .margin-t-40 {
     margin-top: 40px;
 }
-.pre-warp{
+
+.pre-warp {
     white-space: pre-line;
 }
 
 .width-50 {
     width: 50%;
 }
-.line-150{
+
+.line-150 {
     line-height: 150%;
 }
 
@@ -323,10 +328,12 @@ button.chip:hover {
 .full-radius {
     border-radius: 9999px;
 }
-.right-div{
+
+.right-div {
     position: relative;
 }
-.right-div::before{
+
+.right-div::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -335,6 +342,7 @@ button.chip:hover {
     top: 0;
     background: #CECECE;
 }
+
 /* Semantic */
 
 hr {
@@ -491,6 +499,11 @@ footer {
     .input-wrapper input {
         margin: 0 24px;
         flex-grow: 1;
+    }
+
+    input:placeholder-shown {
+        background-color: #a2a2a2 !important;
+        border-color: #a2a2a2 !important;
     }
 
     .flex-start-mob {
