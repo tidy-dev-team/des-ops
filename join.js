@@ -63,7 +63,7 @@ function createNotionPage(title, email, position, company) {
     cache: "no-cache",
   };
 
-  fetch("https://corsproxy.io/?https://api.notion.com/v1/pages", {
+  fetch("https://api.notion.com/v1/pages", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
