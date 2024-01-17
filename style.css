@@ -122,6 +122,11 @@ button.chip:hover {
     outline: none;
     margin: 0 12px;
 }
+.input-wrapper input:placeholder-shown + button{
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+    pointer-events: none;
+}
 
 .input-wrapper input::placeholder {
     color: var(--ops-text);
@@ -499,11 +504,6 @@ footer {
     .input-wrapper input {
         margin: 0 24px;
         flex-grow: 1;
-    }
-
-    input:placeholder-shown {
-        background-color: #a2a2a2 !important;
-        border-color: #a2a2a2 !important;
     }
 
     .flex-start-mob {
