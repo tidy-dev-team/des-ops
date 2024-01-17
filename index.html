@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Ops Israel</title>
     <link rel="stylesheet" href="style.css">
+    <script src="join.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -243,10 +244,11 @@
             <div class="c-flex-start g-20">
                 <h3 class="noto-semi margin-tb-0">לקבלת תכנים ועדכונים וספאם שאנשים אוהבים :)</h3>
                 <div class="r-flex-start input-wrapper">
-                    <input type="email" placeholder="המייל שלך פה" class="haas-semi" />
+                    <input type="email" placeholder="המייל שלך פה" class="haas-semi" id="user-email" />
                     <button class="icon-button">
                         <div class="icon" style="--url:url(images/ic-arrow.svg)"></div>
                     </button>
+                    <input type="submit" id="submit-button" class="button font-inter text-bold" onclick="notionAPI(document.getElementById('user-email').value);" value="Join the waiting list" />
                 </div>
             </div>
         </div>
