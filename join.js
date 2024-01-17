@@ -5,10 +5,10 @@ function notionAPI(title, email, position, company){
       document.getElementById("submit-button").value = "Joined !";
       setTimeout(function(){
         document.getElementById("submit-button").value = "Join the waiting list";
-        document.getElementById("form-name").value = '';
-        document.getElementById("form-mail").value = '';
-        document.getElementById("form-position").value = '';
-        document.getElementById("form-company").value = '';
+        // document.getElementById("form-name").value = '';
+        document.getElementById("user-email").value = '';
+        // document.getElementById("form-position").value = '';
+        // document.getElementById("form-company").value = '';
       }, 2000);
     }
   
