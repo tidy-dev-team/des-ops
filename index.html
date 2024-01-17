@@ -298,6 +298,7 @@
         var userEmail = document.getElementById("user-email").value;
         var url =
           "https://script.google.com/macros/s/AKfycbz_FlL5yxZ8HSvXQsWYPArid0aGzfbcIs7XOl9Izz3Cokw2DOU5MrjEbgQYxpHsh1ZH/exec";
+          document.getElementById("user-email").value = "";
         fetch(url, {
           method: "POST",
           mode: "no-cors",
