@@ -431,6 +431,10 @@ button.seker-button::after {
     background: #CECECE;
 }
 
+.line-1{
+    line-height: 1;
+}
+
 /* Semantic */
 
 hr {
