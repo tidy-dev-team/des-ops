@@ -65,6 +65,11 @@ button.chip:hover {
 }
 
 button.seker-button {
+    border: 2px solid var(--ops-white);
+    margin-bottom: 48px;
+}
+
+/* button.seker-button {
     position: relative;
     padding: 16px 32px;
     margin-bottom: 48px;
@@ -94,7 +99,7 @@ button.seker-button::after {
     background: inherit;
     border-radius: inherit;
     z-index: -1;
-}
+} */
 
 @keyframes rotateBorder {
     0%{
