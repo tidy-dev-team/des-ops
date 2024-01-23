@@ -381,6 +381,10 @@ button.seker-button::after {
     margin-bottom: 40px;
 }
 
+.margin-b-32 {
+    margin-bottom: 24px;
+}
+
 .margin-b-12 {
     margin-bottom: 12px;
 }
