@@ -43,7 +43,7 @@ button.chip {
     border-radius: 9999px;
     margin-top: 24px;
     margin-bottom: 8px;
-    background-color: var(--ops-white);
+    background-color: transparent;
     color: var(--ops-text);
     font-size: calc(var(--text-size) - (var(--text-size) / 4));
     overflow: hidden;
