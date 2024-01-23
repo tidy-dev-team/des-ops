@@ -70,6 +70,10 @@ button.seker-button {
     margin-bottom: 40px;
 }
 
+.logo-image{
+    max-width: 200px;
+}
+
 /* button.seker-button {
     position: relative;
     padding: 16px 32px;
