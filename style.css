@@ -51,6 +51,7 @@ button.chip {
     white-space: nowrap;
     max-width: calc(24vw - 200px);
     pointer-events: none;
+    user-select: none;
 }
 
 button.chip:hover {
@@ -482,6 +483,7 @@ h3 {
     background-color: var(--ops-text);
     color: var(--ops-white);
     border-radius: 8px;
+    user-select: none;
 }
 
 a:hover.black-link .black {
