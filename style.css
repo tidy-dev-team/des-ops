@@ -34,6 +34,11 @@ body {
     color: var(--ops-text);
 }
 
+#wrapper.padding-160{
+    width: calc(100% - 320px);
+    padding: 24px 160px;
+}
+
 /* Classes */
 
 button.chip {
