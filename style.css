@@ -50,6 +50,7 @@ button.chip {
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: calc(24vw - 200px);
+    pointer-events: none;
 }
 
 button.chip:hover {
