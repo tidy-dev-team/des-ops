@@ -80,6 +80,13 @@ button.seker-button {
     max-width: 200px;
 }
 
+.article p.pre-warp{
+    margin-top: -2em;
+}
+.article p.real-m-0{
+    margin-top: 0;
+}
+
 /* button.seker-button {
     position: relative;
     padding: 16px 32px;
