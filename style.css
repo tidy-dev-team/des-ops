@@ -34,7 +34,7 @@ body {
     color: var(--ops-text);
 }
 
-#wrapper.padding-160{
+#wrapper.padding-160 {
     width: calc(100% - 320px);
     padding: 24px 160px;
 }
@@ -76,15 +76,16 @@ button.seker-button {
     margin-bottom: 40px;
 }
 
-.logo img{
+.logo img {
     max-width: 200px;
 }
 
-.article p.pre-warp{
+.article p.pre-warp {
     margin-top: -2em;
     margin-bottom: 1em;
 }
-.article p.real-m-40{
+
+.article p.real-m-40 {
     margin-top: 40px;
 }
 
@@ -121,31 +122,35 @@ button.seker-button::after {
 } */
 
 @keyframes rotateBorder {
-    0%{
+    0% {
         width: 50%;
         height: 100%;
         top: 0;
         left: 0;
     }
-    15%{
+
+    15% {
         width: 100%;
         height: 50%;
         top: 0;
         left: 0;
     }
-    40%{
+
+    40% {
         width: 50%;
         height: 100%;
         top: 0;
         left: 50%;
     }
-    65%{
+
+    65% {
         width: 100%;
         height: 50%;
         top: 50%;
         left: 0;
     }
-    100%{
+
+    100% {
         width: 50%;
         height: 100%;
         top: 0;
@@ -467,7 +472,7 @@ button.seker-button::after {
     background: #CECECE;
 }
 
-.line-105{
+.line-105 {
     line-height: 105%;
 }
 
@@ -497,6 +502,7 @@ h3 {
 .font-3 {
     font-size: 3em;
 }
+
 .font-35 {
     font-size: 3.5em;
 }
@@ -564,10 +570,11 @@ footer {
 }
 
 @media only screen and (max-width: 1100px) {
-    .r-flex-tab{
+    .r-flex-tab {
         flex-direction: column;
     }
-    .r-flex-tab .chip{
+
+    .r-flex-tab .chip {
         max-width: unset;
         margin: 0;
     }
