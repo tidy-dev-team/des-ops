@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div class="section c-flex-center logo">
       <img src="images/ops-logo.svg" />
