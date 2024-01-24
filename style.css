@@ -88,6 +88,9 @@ button.seker-button {
 .article p.real-m-40 {
     margin-top: 40px;
 }
+iframe.footer-frame{
+    height: 600px;
+}
 
 /* button.seker-button {
     position: relative;
