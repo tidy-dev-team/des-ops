@@ -147,7 +147,7 @@ iframe.footer-frame {
     background-color: var(--ops-text);
 }
 
-.tool-card{
+.tool-card {
     border-radius: 8px;
     border: 1px solid #000000;
     color: var(--ops-text);
@@ -155,15 +155,18 @@ iframe.footer-frame {
     padding: 12px;
     cursor: pointer;
 }
-.tool-card h3{
+
+.tool-card h3 {
     font-size: 1.2em;
     margin-top: 0;
 }
-.tool-card .no-link{
+
+.tool-card .no-link {
     font-size: 0.8em;
     position: relative;
 }
-.tool-card .no-link::after{
+
+.tool-card .no-link::after {
     content: '';
     position: absolute;
     height: 14px;
@@ -174,12 +177,22 @@ iframe.footer-frame {
     background-position: center;
     background-image: url(images/link-hetz.svg);
 }
-.tool-card .no-link:hover{
+
+.tool-card .no-link:hover {
     text-decoration: none;
 }
-.tool-card:hover, .tool-card:focus, .tool-card:focus-within{
+
+.tool-card:hover,
+.tool-card:focus,
+.tool-card:focus-within {
     background-color: var(--ops-text);
     color: var(--ops-white);
+}
+
+.tool-card:hover .no-link::after,
+.tool-card:focus .no-link::after,
+.tool-card:focus-within .no-link::after {
+    filter: invert(100%);
 }
 
 /* button.seker-button {
