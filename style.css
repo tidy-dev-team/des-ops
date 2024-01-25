@@ -325,6 +325,9 @@ button.seker-button::after {
 .flex-just-start{
     justify-content: flex-start;
 }
+.flex-center{
+    align-items: center;
+}
 
 .grow {
     flex-grow: 1;
