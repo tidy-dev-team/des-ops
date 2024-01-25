@@ -103,8 +103,8 @@ iframe.footer-frame {
     position: relative;
 }
 #tools-menu, #selected{
-    border-radius: 12px;
-    border: 2px solid var(--ops-text);
+    border-radius: 20px;
+    border: 1.5px solid var(--ops-text);
     width: 34ch;
     font-size: 1.5em;
     overflow: hidden;
@@ -118,6 +118,9 @@ iframe.footer-frame {
     width: calc(34ch - 24px);
     padding: 12px;
     margin-bottom: 8px;
+    background-repeat: no-repeat;
+    background-position: 12px 50%;
+    background-image: url(images/chev.svg);
 }
 #tools-menu .r-flex-start{
     width: 100%;
