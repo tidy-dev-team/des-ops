@@ -684,6 +684,10 @@ a:hover.black-link .black {
     opacity: 0.9;
 }
 
+ul, ol{
+    padding-right: 1em;
+}
+
 button {
     position: relative;
     padding: 20px 40px;
