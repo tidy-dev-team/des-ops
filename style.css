@@ -99,10 +99,13 @@ iframe.footer-frame {
     height: 84vh;
     position: relative;
 }
-#tools{
+
+#tools {
     position: relative;
 }
-#tools-menu, #selected{
+
+#tools-menu,
+#selected {
     border-radius: 20px;
     border: 1.5px solid var(--ops-text);
     width: 34ch;
@@ -111,10 +114,12 @@ iframe.footer-frame {
     cursor: pointer;
     background-color: var(--ops-white);
 }
-#tools-menu{
+
+#tools-menu {
     position: absolute;
 }
-#selected{
+
+#selected {
     width: calc(34ch - 24px);
     padding: 12px;
     margin-bottom: 8px;
@@ -122,18 +127,22 @@ iframe.footer-frame {
     background-position: 12px 50%;
     background-image: url(images/chev.svg);
 }
-#tools-menu .r-flex-start{
+
+#tools-menu .r-flex-start {
     width: 100%;
 }
-#tools-menu .r-flex-start label{
+
+#tools-menu .r-flex-start label {
     width: 100%;
     padding: 12px;
     cursor: pointer;
 }
-#tools-menu input{
+
+#tools-menu input {
     display: none;
 }
-#tools-menu input:checked + label{
+
+#tools-menu input:checked+label {
     color: var(--ops-white);
     background-color: var(--ops-text);
 }
@@ -464,6 +473,10 @@ button.seker-button::after {
 
 .margin-b-40 {
     margin-bottom: 40px;
+}
+
+.margin-b-80 {
+    margin-bottom: 80px;
 }
 
 .margin-b-32 {
