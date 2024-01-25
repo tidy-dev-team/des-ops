@@ -88,7 +88,8 @@ button.seker-button {
 .article p.real-m-40 {
     margin-top: 40px;
 }
-iframe.footer-frame{
+
+iframe.footer-frame {
     height: 84vh;
 }
 
@@ -322,10 +323,11 @@ button.seker-button::after {
     align-items: flex-start;
 }
 
-.flex-just-start{
+.flex-just-start {
     justify-content: flex-start;
 }
-.flex-center{
+
+.flex-center {
     align-items: center;
 }
 
@@ -621,9 +623,14 @@ footer {
         font-size: 1.5em;
     }
 
+    .font-12-mob {
+        font-size: 1.25em;
+    }
+
     .max-50 {
         max-width: 80%;
     }
+
     .max-70 {
         max-width: 100%;
     }
@@ -682,6 +689,11 @@ footer {
 
     .mob-show {
         display: block;
+    }
+
+    .avatar {
+        width: 32px;
+        height: 32px;
     }
 
     button,
