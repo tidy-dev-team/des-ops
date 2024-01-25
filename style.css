@@ -117,6 +117,7 @@ iframe.footer-frame {
 
 #tools-menu {
     position: absolute;
+    z-index: 9;
 }
 
 #selected {
