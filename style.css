@@ -147,6 +147,23 @@ iframe.footer-frame {
     background-color: var(--ops-text);
 }
 
+.tool-card{
+    border-radius: 8px;
+    border: 1px solid #000000;
+    color: var(--ops-text);
+    text-align: left;
+    padding: 12px;
+    cursor: pointer;
+}
+.tool-card h3{
+    font-size: 1.2em;
+    margin-top: 0;
+}
+.tool-card:hover, .tool-card:focus, .tool-card:focus-within{
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+}
+
 /* button.seker-button {
     position: relative;
     padding: 16px 32px;
