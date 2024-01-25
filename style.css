@@ -57,6 +57,7 @@ button.chip {
     max-width: calc(24vw - 200px);
     pointer-events: none;
     user-select: none;
+    display: none;
 }
 
 button.chip:hover {
@@ -483,6 +484,10 @@ button.seker-button::after {
     right: -24px;
     top: 0;
     background: #CECECE;
+}
+
+.hidden{
+    display: none !important;
 }
 
 .line-105 {
