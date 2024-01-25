@@ -91,6 +91,7 @@ button.seker-button {
 
 iframe.footer-frame {
     height: 84vh;
+    position: relative;
 }
 
 /* button.seker-button {
@@ -631,7 +632,8 @@ footer {
         max-width: 80%;
     }
 
-    .max-70, .max-100-mob {
+    .max-70,
+    .max-100-mob {
         max-width: 100%;
     }
 
@@ -699,10 +701,12 @@ footer {
     .article h2 {
         font-size: 2.5em;
     }
+
     .article h3.noto-regular.gray {
         font-size: 3em;
     }
-    .article .width-50{
+
+    .article .width-50 {
         width: 100%;
     }
 
