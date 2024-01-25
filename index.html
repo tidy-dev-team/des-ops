@@ -164,7 +164,7 @@
             <label for="DS">דיזיין סיסטמז</label>
           </div>
           <div class="r-flex-start">
-            <input type="radio" name="select" id="Tokens" value="דיזיין טוקנז" />
+            <input type="radio" name="select" alt="Tokens-cards" id="Tokens" value="דיזיין טוקנז" />
             <label for="Tokens">דיזיין טוקנז</label>
           </div>
           <div class="r-flex-start">
@@ -305,6 +305,28 @@
           </div>
 
         </div>
+
+        <div class="r-flex-start g-12 wrap inner-cards hidden" id="Tokens-cards">
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Naming Tokens in Design Systems
+            </h3>
+            <a href="https://medium.com/eightshapes-llc/naming-tokens-in-design-systems-9e86c7444676" target="_blank"
+              class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Tokens in Design Systems
+            </h3>
+            <a href="https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421"
+              target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+        </div>
+
+
+
       </div>
     </div>
 
@@ -329,10 +351,10 @@
       var x = document.getElementsByClassName("inner-cards");
       var i;
       for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+        x[i].classList.add('hidden');
       }
       setTimeout(function () {
-        document.getElementById(document.getElementById("tools-menu").querySelector('input:checked').alt).style.display = "flex";
+        document.getElementById(document.getElementById("tools-menu").querySelector('input:checked').alt).classList.remove('hidden');
       }, 50);
 
     }

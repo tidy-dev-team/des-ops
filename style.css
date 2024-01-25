@@ -148,7 +148,13 @@ iframe.footer-frame {
     background-color: var(--ops-text);
 }
 
+.inner-cards{
+    width: 100%;
+}
+
 .tool-card {
+    display: flex;
+    flex-direction: column;
     border-radius: 8px;
     border: 1px solid #000000;
     color: var(--ops-text);
@@ -159,6 +165,7 @@ iframe.footer-frame {
 }
 
 .tool-card h3 {
+    flex-grow: 1;
     font-size: 1.2em;
     margin-top: 0;
     pointer-events: none;
