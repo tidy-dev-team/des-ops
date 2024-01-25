@@ -159,6 +159,7 @@ iframe.footer-frame {
 .tool-card h3 {
     font-size: 1.2em;
     margin-top: 0;
+    pointer-events: none;
 }
 
 .tool-card .no-link {

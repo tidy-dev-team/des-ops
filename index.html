@@ -184,11 +184,11 @@
 
       <div class="r-flex-start g-40 wrap space-between">
         <div class="r-flex-start g-12">
-          <div class="tool-card">
+          <div class="tool-card" onclick="cardClick(event);">
             <h3 class="noto-bold">
               Anatomy of a Design System: A Brief Summary
             </h3>
-            <a href="" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://medium.com/@subcide/my-five-biggest-design-system-mistakes-4725859926c2" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
           </div>
   
           <div class="tool-card">
@@ -228,6 +228,11 @@
     function selectTool(){
       document.getElementById("selected").innerText = document.getElementById("tools-menu").querySelector('input:checked').value;
       document.getElementById("tools-menu").classList.add("hidden");
+    }
+
+    function cardClick(event){
+      // console.log(event.target.querySelectorAll('a')[0].href);
+      window.open(event.target.querySelectorAll('a')[0].href, "_blank");
     }
   </script>
 </body>
