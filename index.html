@@ -182,34 +182,66 @@
         </div>
       </div>
 
-      <div class="r-flex-start g-40 wrap space-between">
+      <div class="r-flex-start g-20 wrap space-between">
         <div class="r-flex-start g-12">
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              My Five Biggest Design System Mistakes
+            </h3>
+            <a href="https://medium.com/@subcide/my-five-biggest-design-system-mistakes-4725859926c2" target="_blank"
+              class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Distilling How We Think About Design Systems
+            </h3>
+            <a href="https://publication.design.systems/distilling-how-we-think-about-design-systems-b26432eefef9" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Design Systems Are for User Interfaces
+            </h3>
+            <a href="https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
           <div class="tool-card" onclick="cardClick(event);">
             <h3 class="noto-bold">
               Anatomy of a Design System: A Brief Summary
             </h3>
-            <a href="https://medium.com/@subcide/my-five-biggest-design-system-mistakes-4725859926c2" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://blog.producthive.org/anatomy-of-a-design-system-7a6b0677bf5" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
           </div>
-  
-          <div class="tool-card">
+        </div>
+
+        <div class="r-flex-start g-12">
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              My Five Biggest Design System Mistakes
+            </h3>
+            <a href="https://medium.com/@subcide/my-five-biggest-design-system-mistakes-4725859926c2" target="_blank"
+              class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Distilling How We Think About Design Systems
+            </h3>
+            <a href="https://publication.design.systems/distilling-how-we-think-about-design-systems-b26432eefef9" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
+            <h3 class="noto-bold">
+              Design Systems Are for User Interfaces
+            </h3>
+            <a href="https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+          </div>
+
+          <div class="tool-card" onclick="cardClick(event);">
             <h3 class="noto-bold">
               Anatomy of a Design System: A Brief Summary
             </h3>
-            <a href="" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
-          </div>
-  
-          <div class="tool-card">
-            <h3 class="noto-bold">
-              Anatomy of a Design System: A Brief Summary
-            </h3>
-            <a href="" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
-          </div>
-  
-          <div class="tool-card">
-            <h3 class="noto-bold">
-              Anatomy of a Design System: A Brief Summary
-            </h3>
-            <a href="" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://blog.producthive.org/anatomy-of-a-design-system-7a6b0677bf5" target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
           </div>
         </div>
       </div>
@@ -222,16 +254,15 @@
   </div>
 
   <script>
-    function openTools(){
+    function openTools() {
       document.getElementById("tools-menu").classList.toggle("hidden");
     }
-    function selectTool(){
+    function selectTool() {
       document.getElementById("selected").innerText = document.getElementById("tools-menu").querySelector('input:checked').value;
       document.getElementById("tools-menu").classList.add("hidden");
     }
 
-    function cardClick(event){
-      // console.log(event.target.querySelectorAll('a')[0].href);
+    function cardClick(event) {
       window.open(event.target.querySelectorAll('a')[0].href, "_blank");
     }
   </script>
