@@ -126,6 +126,7 @@ iframe.footer-frame {
 #tools-menu .r-flex-start label{
     width: 100%;
     padding: 12px;
+    cursor: pointer;
 }
 #tools-menu input{
     display: none;
