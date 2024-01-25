@@ -159,6 +159,12 @@ iframe.footer-frame {
     font-size: 1.2em;
     margin-top: 0;
 }
+.tool-card .no-link{
+    font-size: 0.8em;
+}
+.tool-card .no-link:hover{
+    text-decoration: none;
+}
 .tool-card:hover, .tool-card:focus, .tool-card:focus-within{
     background-color: var(--ops-text);
     color: var(--ops-white);
