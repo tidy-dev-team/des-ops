@@ -834,6 +834,12 @@ footer {
         width: 32px;
         height: 32px;
     }
+    .tool-card{
+        width: calc(100% - 24px);
+    }
+    #tools-menu, #selected{
+        width: calc(100% - 24px) !important;
+    }
 
     .article h2 {
         font-size: 2.5em;
