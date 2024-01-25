@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
+<body
+  onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div class="section c-flex-center logo">
       <img src="images/ops-logo.svg" />
@@ -25,7 +26,8 @@
           <h1 class="haas-semi font-3 margin-b-12 margin-t-40 text-center">
             Design System Maturity Level Survey
           </h1>
-          <button class="seker-button noto-medium" onclick="window.open('https://x9saux68r0k.typeform.com/to/wPm7ABNO', '_blank');">קחו אותי לסקר</button>
+          <button class="seker-button noto-medium"
+            onclick="window.open('https://x9saux68r0k.typeform.com/to/wPm7ABNO', '_blank');">קחו אותי לסקר</button>
         </div>
       </div>
     </div>
@@ -50,7 +52,7 @@
           <button class="chip noto-semi">תגית</button>
           <h2 class="noto-semi">על תהליכי Maturity בעבודה על דיזיין סיסטם</h2>
           <p class="noto-regular">
-            מרואיינות: אתי לייפר שרביט ויוליה סקיגר 
+            מרואיינות: אתי לייפר שרביט ויוליה סקיגר
           </p>
         </div>
       </div>
@@ -153,6 +155,33 @@
 
     <div class="section padding-tb-40 padding-b-80">
       <h3 class="noto-regular">ארגז כלים</h3>
+
+      <div id="tools" class="noto-semi">
+        <div id="selected" onclick="openTools();">דיזיין סיסטמז</div>
+        <div id="tools-menu" class="noto-semi" onclick="selectTool();">
+          <div class="r-flex-start">
+            <input type="radio" name="select" id="DS" checked />
+            <label for="DS">דיזיין סיסטמז</label>
+          </div>
+          <div class="r-flex-start">
+            <input type="radio" name="select" id="Tokens" />
+            <label for="Tokens">דיזיין טוקנז</label>
+          </div>
+          <div class="r-flex-start">
+            <input type="radio" name="select" id="Lists" />
+            <label for="Lists">צ׳ק ליסטס</label>
+          </div>
+          <div class="r-flex-start">
+            <input type="radio" name="select" id="Ops" />
+            <label for="Ops">אסטרטגיית דיזיין אופס</label>
+          </div>
+          <div class="r-flex-start">
+            <input type="radio" name="select" id="Auto" />
+            <label for="Auto">כלי אוטומציה</label>
+          </div>
+        </div>
+      </div>
+
       <div class="r-flex-start g-40 wrap space-between">
         <div class="r-flex-start g-20 max-third r-flex-mob g-8-mob">
           <div class="icon-72"></div>
@@ -211,10 +240,17 @@
       </div>
     </div>
 
-    <iframe src="footer.html" frameborder="0" class="full-width footer-frame" onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
+    <iframe src="footer.html" frameborder="0" class="full-width footer-frame"
+      onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
     <footer></footer>
 
   </div>
+
+  <script>
+    function openTools(){
+      document.getElementById("tools-menu").style.display = "block";
+    }
+  </script>
 </body>
 
 </html>

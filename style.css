@@ -99,6 +99,41 @@ iframe.footer-frame {
     height: 84vh;
     position: relative;
 }
+#tools{
+    position: relative;
+}
+#tools-menu, #selected{
+    border-radius: 12px;
+    border: 2px solid var(--ops-text);
+    width: 34ch;
+    font-size: 1.5em;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: var(--ops-white);
+}
+#tools-menu{
+    display: none;
+    position: absolute;
+}
+#selected{
+    width: calc(34ch - 24px);
+    padding: 12px;
+    margin-bottom: 8px;
+}
+#tools-menu .r-flex-start{
+    width: 100%;
+}
+#tools-menu .r-flex-start label{
+    width: 100%;
+    padding: 12px;
+}
+#tools-menu input{
+    display: none;
+}
+#tools-menu input:checked + label{
+    color: var(--ops-white);
+    background-color: var(--ops-text);
+}
 
 /* button.seker-button {
     position: relative;
