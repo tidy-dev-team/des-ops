@@ -276,7 +276,7 @@ button.seker-button::after {
 .no-link:focus-visible {
     outline: none;
     text-decoration: underline;
-    text-underline-offset: var(--text-size);
+    text-underline-offset: calc(var(--text-size) / 4);
 }
 
 .no-link.small:hover,
