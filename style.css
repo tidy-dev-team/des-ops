@@ -148,7 +148,7 @@ iframe.footer-frame {
     background-color: var(--ops-text);
 }
 
-.inner-cards{
+.inner-cards {
     width: 100%;
 }
 
@@ -834,11 +834,25 @@ footer {
         width: 32px;
         height: 32px;
     }
-    .tool-card{
+
+    .tool-card {
         width: calc(100% - 24px);
     }
-    #tools-menu, #selected{
+
+    .tool-card h3{
+        font-size: 2em;
+    }
+
+    .tool-card .no-link{
+        font-size: 1.2em;
+    }
+
+    #selected {
         width: calc(100% - 24px) !important;
+    }
+
+    #tools-menu {
+        width: 100% !important;
     }
 
     .article h2 {
