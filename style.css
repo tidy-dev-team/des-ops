@@ -161,6 +161,18 @@ iframe.footer-frame {
 }
 .tool-card .no-link{
     font-size: 0.8em;
+    position: relative;
+}
+.tool-card .no-link::after{
+    content: '';
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    top: 2px;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/link-hetz.svg);
 }
 .tool-card .no-link:hover{
     text-decoration: none;
