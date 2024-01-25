@@ -391,6 +391,7 @@ button.seker-button::after {
     text-decoration: underline;
 }
 .article-link:hover{
+    color: #696969;
     text-underline-offset: 0;
 }
 
