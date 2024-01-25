@@ -385,6 +385,15 @@ button.seker-button::after {
     text-underline-offset: var(--text-size);
 }
 
+.article-link{
+    color: var(--ops-text);
+    text-underline-offset: 0;
+    text-decoration: underline;
+}
+.article-link:hover{
+    text-underline-offset: 0;
+}
+
 .no-link:focus-visible {
     outline: none;
     text-decoration: underline;
