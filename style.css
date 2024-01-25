@@ -77,6 +77,11 @@ button.seker-button {
     margin-bottom: 40px;
 }
 
+button.seker-button:focus-visible{
+    outline-offset: 4px;
+    outline: 3px solid var(--ops-white);
+}
+
 .logo img {
     max-width: 200px;
 }
