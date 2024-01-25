@@ -154,6 +154,7 @@ iframe.footer-frame {
     text-align: left;
     padding: 12px;
     cursor: pointer;
+    width: calc(25% - 36px);
 }
 
 .tool-card h3 {
