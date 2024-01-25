@@ -160,7 +160,7 @@
         <div id="selected" onclick="openTools();">דיזיין סיסטמז</div>
         <div id="tools-menu" class="noto-semi hidden" onclick="selectTool();">
           <div class="r-flex-start">
-            <input type="radio" name="select" id="DS" value="דיזיין סיסטמז" checked />
+            <input type="radio" name="select" alt="DS-cards" id="DS" value="דיזיין סיסטמז" checked />
             <label for="DS">דיזיין סיסטמז</label>
           </div>
           <div class="r-flex-start">
@@ -182,8 +182,8 @@
         </div>
       </div>
 
-      <div class="r-flex-start g-20 wrap space-between">
-        <div class="r-flex-start g-12 wrap cards" value="דיזיין סיסטמז">
+      <div class="r-flex-start g-20 wrap space-between cards">
+        <div class="r-flex-start g-12 wrap inner-cards" id="DS-cards">
           <div class="tool-card" onclick="cardClick(event);">
             <h3 class="noto-bold">
               My Five Biggest Design System Mistakes
@@ -326,7 +326,21 @@
     }
     function selectTool() {
       document.getElementById("selected").innerText = document.getElementById("tools-menu").querySelector('input:checked').value;
+      resetCards();
+
       document.getElementById("tools-menu").classList.add("hidden");
+    }
+
+    function resetCards(){
+      var x = document.getElementsByClassName("inner-cards");
+      var i;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      setTimeout(function () {
+        document.getElementById(document.getElementById("tools-menu").querySelector('input:checked').alt).style.display = "flex";
+      }, 1000);
+
     }
 
     function cardClick(event) {
