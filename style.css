@@ -631,7 +631,7 @@ footer {
         max-width: 80%;
     }
 
-    .max-70 {
+    .max-70, .max-100-mob {
         max-width: 100%;
     }
 
