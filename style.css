@@ -86,6 +86,10 @@ button.seker-button:focus-visible {
     max-width: 200px;
 }
 
+.article p, .article ul, .article ol, .article li{
+    max-width: 55vw;
+}
+
 .article p.pre-warp {
     margin-top: -2em;
     margin-bottom: 1em;
