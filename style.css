@@ -112,7 +112,6 @@ iframe.footer-frame {
     background-color: var(--ops-white);
 }
 #tools-menu{
-    display: none;
     position: absolute;
 }
 #selected{
