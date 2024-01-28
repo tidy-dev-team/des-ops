@@ -168,6 +168,7 @@ iframe.footer-frame {
     padding: 12px;
     cursor: pointer;
     width: calc(25% - 36px);
+    min-height: 120px;
 }
 
 .tool-card h3 {
