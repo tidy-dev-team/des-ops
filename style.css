@@ -458,6 +458,10 @@ button.seker-button::after {
     align-items: flex-start;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
+
 .flex-just-start {
     justify-content: flex-start;
 }
@@ -847,6 +851,10 @@ footer {
 
     .black .r-flex-center {
         flex-direction: column;
+    }
+
+    .reverse{
+        flex-direction: column-reverse;
     }
 
     .mob-hidden {
