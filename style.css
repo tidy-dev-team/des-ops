@@ -783,7 +783,7 @@ footer {
         --text-size: 10px;
     }
 
-    #wrapper {
+    #wrapper, #wrapper.article {
         padding: 24px;
         width: calc(100% - 48px);
     }
