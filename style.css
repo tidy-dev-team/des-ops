@@ -696,6 +696,9 @@ h3 {
     padding-top: 16px;
     padding-bottom: 16px;
 }
+.black .g-4{
+    gap: 14px;
+}
 
 a:hover.black-link .black {
     opacity: 0.9;
