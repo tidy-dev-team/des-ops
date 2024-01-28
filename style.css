@@ -693,6 +693,8 @@ h3 {
     color: var(--ops-white);
     border-radius: 8px;
     user-select: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 a:hover.black-link .black {
