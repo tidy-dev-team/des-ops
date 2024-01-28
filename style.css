@@ -33,6 +33,10 @@ body {
     padding: 24px 80px;
     color: var(--ops-text);
 }
+#wrapper.article {
+    width: calc(100% - 400px);
+    padding: 24px 200px;
+}
 
 #wrapper.padding-160 {
     width: calc(100% - 320px);
