@@ -810,6 +810,12 @@ footer {
     p {
         font-size: 1.5em;
     }
+    ol, li, ul{
+        font-size: 1.25em;
+    }
+    .article p, .article ol, .article ul, .article li{
+        max-width: unset;
+    }
 
     .font-12-mob {
         font-size: 1.25em;
