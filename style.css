@@ -96,6 +96,7 @@ button.seker-button:focus-visible {
 .article ol,
 .article li {
     max-width: 55vw;
+    line-height: 150%;
 }
 
 .article p.pre-warp {
@@ -783,7 +784,8 @@ footer {
         --text-size: 10px;
     }
 
-    #wrapper, #wrapper.article {
+    #wrapper,
+    #wrapper.article {
         padding: 24px;
         width: calc(100% - 48px);
     }
