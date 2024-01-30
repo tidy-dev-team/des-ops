@@ -899,6 +899,9 @@ footer {
     .reverse {
         flex-direction: column-reverse;
     }
+    .tool-card .reverse{
+        flex-direction: row-reverse;
+    }
 
     .mob-hidden {
         display: none;
