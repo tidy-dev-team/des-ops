@@ -191,6 +191,9 @@ iframe.footer-frame {
     direction: ltr;
     pointer-events: none;
 }
+.tool-card div{
+    pointer-events: none;
+}
 
 .tool-card .no-link {
     font-size: 0.8em;
