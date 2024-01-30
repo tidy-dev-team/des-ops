@@ -945,6 +945,11 @@ footer {
         width: 100%;
     }
 
+    .mob-margin-tb-80 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
     button,
     a,
     input {
