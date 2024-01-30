@@ -475,6 +475,10 @@ button.seker-button::after {
     flex-direction: row-reverse;
 }
 
+.ov-hidden{
+    overflow: hidden;
+}
+
 .flex-just-start {
     justify-content: flex-start;
 }
