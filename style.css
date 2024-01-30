@@ -177,7 +177,8 @@ iframe.footer-frame {
     padding: 12px;
     cursor: pointer;
     width: calc(25% - 36px);
-    min-height: 120px;
+    min-height: 200px;
+    /* aspect-ratio: 1.5 / 1; */
 }
 
 .cards {
