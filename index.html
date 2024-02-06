@@ -23,6 +23,9 @@
 <body
   onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
+    <div id="embedPopup" class="hidden">
+      <iframe name="embedFrame" id="framePopup" src=""></iframe>
+    </div>
     <div class="section c-flex-center logo">
       <img src="images/ops-logo.svg" />
     </div>
@@ -60,7 +63,7 @@
           <p class="noto-regular">מרואיין: עופר בן שושן</p>
         </div>
         <div class="c-flex-start">
-          <a href="https://www.youtube.com/watch?v=E1WQDVKgBOo" target="_blank" class="card-link">
+          <a href="https://www.youtube.com/embed/E1WQDVKgBOo?si=5B2BFiFNnozJSzZy" target="embedFrame" class="card-link" onclick="showPopup();">
           <img src="images/interview_03-min.jpg" class="full-width radius-8" />
           <button class="chip noto-semi">תגית</button>
           <h2 class="noto-semi">על תהליכי Maturity בעבודה על דיזיין סיסטם</h2>
@@ -512,6 +515,13 @@
 
     function cardClick(event) {
       window.open(event.target.querySelectorAll('a')[0].href, "_blank");
+    }
+
+    function showPopup(){
+      document.getElementById("embedPopup").classList.remove("hidden");
+    }
+    function closePopup(){
+      document.getElementById("embedPopup").classList.add("hidden");
     }
   </script>
 </body>

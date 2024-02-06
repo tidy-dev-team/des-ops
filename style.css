@@ -52,6 +52,22 @@ body:has(#wrapper){
 
 /* Classes */
 
+#embedPopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    background-color: black;
+}
+
+#embedPopup iframe{
+    border: none;
+    outline: none;
+    width: 80vmin;
+    height: 45vmin;
+}
+
 button.chip {
     padding: 6px 14px;
     border: 1px solid var(--ops-text);
