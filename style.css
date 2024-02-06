@@ -426,6 +426,16 @@ button.seker-button::after {
     text-underline-offset: 2px;
 }
 
+.card-link {
+    color: var(--ops-text);
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: #696969;
+    text-decoration: none;
+}
+
 .no-link:focus-visible {
     outline: none;
     text-decoration: underline;
