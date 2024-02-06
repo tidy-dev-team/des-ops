@@ -23,8 +23,8 @@
 <body
   onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
-    <div id="embedPopup" class="hidden">
-      <iframe name="embedFrame" id="framePopup" src=""></iframe>
+    <div id="embedPopup" class="hidden" onclick="closePopup();">
+      <iframe name="embedFrame" id="framePopup" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="section c-flex-center logo">
       <img src="images/ops-logo.svg" />
@@ -522,6 +522,7 @@
     }
     function closePopup(){
       document.getElementById("embedPopup").classList.add("hidden");
+      document.getElementById("framePopup").src = "";
     }
   </script>
 </body>
