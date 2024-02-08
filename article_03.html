@@ -12,11 +12,13 @@
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:site" content="https://desops.co.il">
     <meta property="twitter:title" content="עקביות עיצוב בסקייל: ניתוח Variables בפיגמה">
-    <meta property="twitter:description" content="Variables עוזרים לנו, מעצבי הסיסטם, לשמור על היסודות שלנו עקביים, גמישים ומוגדרים היטב, מה שכמובן מביא לכך שעבודת המעצבים תהיה יעילה יותר, מהירות הצוות גבוהה יותר ובאופן כללי כולם יהיו שמחים יותר">
+    <meta property="twitter:description"
+        content="Variables עוזרים לנו, מעצבי הסיסטם, לשמור על היסודות שלנו עקביים, גמישים ומוגדרים היטב, מה שכמובן מביא לכך שעבודת המעצבים תהיה יעילה יותר, מהירות הצוות גבוהה יותר ובאופן כללי כולם יהיו שמחים יותר">
     <meta property="twitter:creator" content="@adircode">
     <meta name="twitter:image" itemprop="image" content="https://desops.co.il/images/article_03_hero-min.jpg">
     <meta property="og:title" content="עקביות עיצוב בסקייל: ניתוח Variables בפיגמה" />
-    <meta property="og:description" content="Variables עוזרים לנו, מעצבי הסיסטם, לשמור על היסודות שלנו עקביים, גמישים ומוגדרים היטב, מה שכמובן מביא לכך שעבודת המעצבים תהיה יעילה יותר, מהירות הצוות גבוהה יותר ובאופן כללי כולם יהיו שמחים יותר" />
+    <meta property="og:description"
+        content="Variables עוזרים לנו, מעצבי הסיסטם, לשמור על היסודות שלנו עקביים, גמישים ומוגדרים היטב, מה שכמובן מביא לכך שעבודת המעצבים תהיה יעילה יותר, מהירות הצוות גבוהה יותר ובאופן כללי כולם יהיו שמחים יותר" />
     <meta property="og:image" itemprop="image" content="https://desops.co.il/images/article_03_hero-min.jpg" />
 
 </head>
@@ -52,7 +54,7 @@
                         <img src="images/avatar_julia.jpg" class="avatar" />
                         <p class="noto-regular font-12-mob">מאת: יוליה סקיגר | 4 דקות קריאה | 28.01.2024</p>
                     </div>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp real-m-40">
+                    <p class="noto-regular line-150 margin-tb-0 real-m-40">
                         אין ספק שכולם התלהבו מהפיצ׳רים ש-Figma שחררה ביוני 2023 ובעיקר פיצ׳ר ה-Variables (כולנו שמענו את
                         מחיאות הכפיים ב-Config 🙂). לפני כן, דיזיין סיסטמס נבנו עם סטיילים מובנים של Figma או באמצעות
                         אינטגרציות חיצוניות (לדוגמה Tokens Studio) כדי להקים בסיס עקבי של צבעים, אפקטים ומרווחים במערכת.
@@ -60,24 +62,24 @@
                     <h2 class="noto-medium margin-tb-16">
                         מה הם Variables?
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         אני די בטוחה שלרובכם יש מושג לגבי Variables אם התעניינתם במאמר הזה, אבל ליתר ביטחון בואו נעבור
                         על זה שוב: Variable הוא משתנה מופשט שיכול להחזיק ערכים מסוימים. בהקשר של Figma, Variables
                         מאחסנים החלטות עיצוביות. לדוגמה, בדיזיין סיסטם ההיפותטית שלנו יכול להיות משתנה צבע בשם
                         "background" שמחזיק בערך HEX מסוים - #FFFFF.
-
+                        <br /><br />
                         יש 4 סוגי Variables שזמינים כרגע ב- Figma: צבע (כמובן מאחסן ערכי צבע), מספר (ריווח, רדיוס פינות,
                         מידות), string (תוכן טקסט) ובוליאני (משמש להצגה או הסתרה של אלמנט כלשהו). Variables עוזרים לנו,
                         מעצבי הסיסטם, לשמור על היסודות שלנו עקביים, גמישים ומוגדרים היטב, מה שכמובן מביא לכך שעבודת
                         המעצבים תהיה יעילה יותר, מהירות הצוות גבוהה יותר ובאופן כללי כולם יהיו שמחים יותר :)
-
+                        <br /><br />
                         למרות שכרגע פיצ׳ר ה-Variables של Figma עדיין בגרסת בטא וה-UX אינו מושלם, ההימור הטוב ביותר של כל
                         מעצב סיסטם יהיה לשקול לעבור להשתמש ב-Variables בהקדם האפשרי, ואנו הולכים להסביר מדוע במאמר זה.
                     </p>
                     <h2 class="noto-medium margin-tb-16">
                         Variables כאן כדי להישאר
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         Variables כבר מכסים 99.9% מצרכי ניהול הצבע (color management) בדיזיין סיסטם, ועם תמיכת גרדיאנט
                         בקרוב לא יהיה צורך בסטיילים צבע. הפיצ׳ר פונקציונלי לגמרי למרווחים ורדיוס פינות, והבאים בתור הם
                         טוקנים של טיפוגרפיה ו-Variables של קומפוננטות. השימוש בסטיילים בשלב זה נראה כמו רעיון טוב רק
@@ -90,14 +92,14 @@
                         Variables יודעים להתחבר אחד עם השני
                     </h2>
 
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         זה אחד הדברים הכי חזקים בפיצ׳ר הזה. אתם רק צריכים להגדיר את ה-dependencies של הדיזיין סיסטם פעם
                         אחת, ותהיה לך מערכת ניתנת להרחבה וגמישה עבור ספרינטים רבים קדימה.
-
+                        <br /><br />
                         אם אתם מחליפים צבע, פשוט מחליפים את ערך ה-HEX שלו בתא אחד, וכל הרכיבים יתעדכנו בהתאם. אם פתאום
                         מתחשק לך להשתמש בפינות מעוגלות של 12 פיקסלים במקום 6 פיקסלים, תוכלו לעשות זאת בלחיצת כפתור אחת.
-
-                        לעומת זאת אם תרצו לשנות טוקן אחד ספציפי כמו למשל הטוקן  שלכם ל-info (שכנראה מקושר לצבע הכחול
+                        <br /><br />
+                        לעומת זאת אם תרצו לשנות טוקן אחד ספציפי כמו למשל הטוקן שלכם ל-info (שכנראה מקושר לצבע הכחול
                         בגלובל) תוכלו פשוט לקשר אותו לכחול אחר מהגלובל ולא תהרסו שום דבר אחר - כלומר תוכלו לעשות שינוי
                         נקודתי.
                     </p>
@@ -106,7 +108,7 @@
                         Variables יעזרו לך להגדיר את מצב הדארק-מוד המיוחל
                     </h2>
                     <img src="images/article_03_img_02-min.jpg" class="full-width margin-tb-40" />
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         עם המודים של Variables, אין צורך עוד ליצור ספריות סטיילים משוכפלות - אחת עבור מצב בהיר ואחת למצב
                         כהה. גם לא צריך להיעזר בפתרונות חיצוניים (כמו Themer או Tokens Studio). פשוט מגדירים את צבעי
                         המוצר שלך במצב בהיר, ולאחר מכן מוסיפים מצב נוסף, תוך שינוי ה-alias לצבעים הגלובאליים שבהם רוצים
@@ -116,15 +118,16 @@
                     <h2 class="noto-medium margin-tb-16">
                         Variables מתאימים מאוד למוצרי מולטי ברנד
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         לפי אותו היגיון, Variables הם פתרון מצוין עבור מוצרים בעלי וויט-לייבל או ערכות נושא שונות,
                         מכיוון שאפשר להשתמש במודים כדי ליצור סטים נפרדים של Variables עבור לקוחות או ערכות נושא שונות.
                         צריך לוודא שמספר המותגים/המוצרים שלך מתאים לתוכנית Figma הנוכחית שלך - יש מגבלות על מספר המצבים
                         הזמינים, תלוי אם אתה בתוכנית Organization או Enterprise.
-
-                       יתרה מכך, עם Variables, אפשר ליצור ספריית רכיבים בודדים שתשרת מספר מותגים או מוצרים. כן יש
+                        <br /><br />
+                        יתרה מכך, עם Variables, אפשר ליצור ספריית רכיבים בודדים שתשרת מספר מותגים או מוצרים. כן יש
                         עבודה על הגדרה הראשונית, אבל בטווח הארוך, לעולם לא תצטרכו לדאוג לגבי הגדילה של דיזיין סיסטם
                         שלך. 
+                        <br />
                         מכיוון שכל החלטות העיצוב מאוחסנות במקום מרוכז וקיימת קישוריות בין Variables גלובליים לסמנטיים,
                         ניתן להתאים ולהרחיב את הדיזיין סיסטם  באופן רוחבי (הוספת מותגים/מצבים חדשים) ואנכי (הוספת החלטות
                         עיצוב חדשות ב- אוספים קיימים).
@@ -134,7 +137,7 @@
                     <h2 class="noto-medium margin-tb-16">
                         Variables הם מעבר לעיצוב חזותי
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         מה אם תוכלו להשתמש ב-Figma כדי לנהל לא רק החלטות עיצוב אלא גם מיקרוקופי? או אם למוצר שלך יש
                         גרסאות במספר שפות? String Variables מאפשרים ליצור UX עקבי בכל המוצרים או לשנות במהירות את
                         העיצובים שלך לשפות אחרות (שוב, באמצעות מודים). למרות שנדרשת עבודה ידנית לתרגום והזנת טקסט, זה
@@ -144,13 +147,13 @@
                     <h2 class="noto-medium margin-tb-16">
                         Variables עוזרים למעצבים ולמפתחים לתקשר
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         עם חיבור הקוד ב-DevMode, מעצבים ומפתחים יכולים סוף סוף להיות מיושרים ולא ללכת לאיבוד במונחים
                         השונים. לאחר שתגדירו את הVariables שלך ותחילו אותם על העיצובים שלך, צוות הפיתוח יוכל:
                         א) לראות את הקוד סינטקס (שימו לב ש-DevMode הוא כרגע בתשלום)
                         ב) לייצא את כל אוסף הVariables כ-JSON, מה שחוסך טונות של פינג-פונג על ״הכחול הזה שהוא בערך כמו
                         הכחול שעיצבנו אבל לא בדיוק".
-
+                        <br /><br />
                         אוסף אחד - JSON אחד - source of truth אחד - 0 אי עקביות.
                     </p>
 
@@ -159,7 +162,7 @@
                     <h2 class="noto-medium margin-tb-16">
                         Variables פותחים הזדמנויות חדשות לעיצוב מוצר
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         עם חיבור הקוד ב-DevMode, מעצבים ומפתחים יכולים סוף סוף להיות מיושרים ולא ללכת לאיבוד במונחים
                         השונים. לאחר שתגדירו את הVariables שלך ותחילו אותם על העיצובים שלך, צוות הפיתוח יוכל:
                         א) לראות את הקוד סינטקס (שימו לב ש-DevMode הוא כרגע בתשלום)
@@ -172,7 +175,7 @@
                     <h2 class="noto-medium margin-tb-16">
                         העתיד של Variables
                     </h2>
-                    <p class="noto-regular line-150 margin-tb-0 pre-warp">
+                    <p class="noto-regular line-150 margin-tb-0">
                         דבר אחרון, והפעם זה בעצם יותר על עיצוב מוצר ולא על סיסטם. פיתוח Variables בוליאניים והאפשרות
                         לחבר אותם לגרסאות רכיבים פתחה עולם חדש לגמרי ליצירת פרוטוטייפ ב-Figma. אנחנו לא הולכים לצלול
                         לתוכו במאמר הזה, בגלל שזה נושא עצום, אבל הרשו לי לומר זאת: עם הVariables החדשים ותכונות
@@ -187,7 +190,7 @@
                         <div class="c-flex-start">
                             <p class="noto-semi margin-tb-0 font-12-mob">יוליה סקיגר</p>
                             <div class="r-flex-center g-4">
-                                <p class="noto-semi margin-tb-0 font-12-mob"> System Designer ב- kido 
+                                <p class="noto-semi margin-tb-0 font-12-mob"> System Designer ב- kido
                                 </p>
                                 <img src="images/ic-linkedin.svg" class="hidden" />
                             </div>
@@ -213,9 +216,9 @@
                         <div class="c-flex-start">
 
                             <a href="article_02.html" target="_self" class="no-link small">
-                            <h3 class="noto-semi margin-b-12 margin-t-12 grow">מה זה חוב עיצובי, ומה הקשר שלו ל-
-                                DesignOps</h3>
-                                </a>
+                                <h3 class="noto-semi margin-b-12 margin-t-12 grow">מה זה חוב עיצובי, ומה הקשר שלו ל-
+                                    DesignOps</h3>
+                            </a>
                             <div class="r-flex-start g-20 r-flex-mob flex-center">
                                 <img src="images/avatar_dina.jpg" class="avatar" />
                                 <p class="noto-regular">מאת: דינה ניימן</p>
@@ -224,7 +227,7 @@
                         <div class="c-flex-start">
 
                             <a href="article_01.html" target="_self" class="no-link small">
-                            <h3 class="noto-semi margin-b-12 margin-t-12 grow">Design System, Dev ומה שבינהם</h3>
+                                <h3 class="noto-semi margin-b-12 margin-t-12 grow">Design System, Dev ומה שבינהם</h3>
                             </a>
                             <div class="r-flex-start g-20 r-flex-mob flex-center">
                                 <img src="images/avatar_eti.jpg" class="avatar" />
@@ -248,7 +251,8 @@
 
     </div>
     <div id="wrapper">
-        <iframe src="footer.html" frameborder="0" class="full-width footer-frame" onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
+        <iframe src="footer.html" frameborder="0" class="full-width footer-frame"
+            onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
         <footer></footer>
     </div>
 </body>
