@@ -64,7 +64,6 @@ body:has(#wrapper){
     justify-content: center;
     align-items: center;
     padding: 32px;
-    border-radius: 12px;
 }
 
 #embedPopup iframe{
