@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design system, Dev ומה שבינהם</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://desops.co.il/images/des-favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+    <base target="_blank">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="https://desops.co.il">
+    <meta property="twitter:title" content="כוחו של עיצוב בתוך מגבלות">
+    <meta property="twitter:description"
+        content="לעבוד תחת אילוצים זה לא פשרה אלא אסטרטגיה לפיתוח יצירתיות. על ידי תפיסה מחדש של מגבלות כעוגנים והבנת האתגרים הייחודיים שלהם, מעצבים יכולים לנווט במורכבות הפרויקטים שלהם עם מיקוד, חדשנות ויצירתיות גדולים.">
+    <meta property="twitter:creator" content="@adircode">
+    <meta name="twitter:image" itemprop="image" content="https://desops.co.il/images/article_04_hero-min.jpg">
+    <meta property="og:title" content="כוחו של עיצוב בתוך מגבלות" />
+    <meta property="og:description"
+        content="לעבוד תחת אילוצים זה לא פשרה אלא אסטרטגיה לפיתוח יצירתיות. על ידי תפיסה מחדש של מגבלות כעוגנים והבנת האתגרים הייחודיים שלהם, מעצבים יכולים לנווט במורכבות הפרויקטים שלהם עם מיקוד, חדשנות ויצירתיות גדולים. " />
+    <meta property="og:image" itemprop="image" content="https://desops.co.il/images/article_04_hero-min.jpg" />
+
+</head>
+
+<body
+    onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
+    <div id="wrapper" class="article">
+        <div class="section c-flex-center logo">
+            <a href="index.html" target="_self"><img src="images/ops-logo.svg" /></a>
+        </div>
+
+        <img src="images/article_04_hero-min.jpg" class="full-width radius-8 margin-t-40" />
+
+        <div class="section r-flex-start margin-tb-80 mob-margin-tb-20">
+            <a href="index.html" target="_self" class="no-link small r-flex-center flex-just-start g-12">
+                <div class="icon rotate-180" style="--url:url(images/ic-arrow.svg)"></div>
+                <p class="noto-bold margin-tb-0">לעמוד הבית</p>
+            </a>
+        </div>
+
+        <div class="r-flex-start flex-start g-80 g-32-mob">
+            <div class="c-flex-center max-70">
+                <div class="section c-flex-start">
+                    <h1 class="noto-bold margin-t-0 font-35">
+                        כוחו של עיצוב בתוך מגבלות
+                    </h1>
+                    <h3 class="noto-medium gray">
+                        לעבוד תחת אילוצים זה לא פשרה אלא אסטרטגיה לפיתוח יצירתיות. על ידי תפיסה מחדש של מגבלות כעוגנים והבנת האתגרים הייחודיים שלהם, מעצבים יכולים לנווט במורכבות הפרויקטים שלהם עם מיקוד, חדשנות ויצירתיות גדולים.
+                    </h3>
+                    <div class="r-flex-start flex-center r-flex-mob g-20 g-8-mob">
+                        <img src="images/avatar_eti.jpg" class="avatar" />
+                        <p class="noto-regular font-12-mob">מאת: אתי לייפר שרביט | 6 דקות קריאה | 28.01.2024</p>
+                    </div>
+                    <p class="noto-regular line-150 margin-tb-0 real-m-40">
+                        המטרה שלי כמעצבת (חוץ מכמובן לחלוש על כל חנויות הוינטג׳ בעולם ולהפסיק להסביר מה אני עושה בחיים)
+                        - זה שמה שאני (והצוות כמובן) מתכננת, מחליטה ומעצבת יקרה באמת. לא המלצה, לא אולי, לא בצורה אחרת,
+                        יקרה - באמת.
+                        וזה לא רק העיצוב עצמו, זה לא רק שהכחול באמת יהיה הכחול זה שגם המבנה יהיה אותו מבנה, שההתנהגות
+                        תהיה אותה התנהגות, היכולות יהיו אותן יכולות ושאני אבין אם הכוונות שלי הם do-able ושאני לא חיה
+                        בלהלה-לנד.
+                    </p>
+                    <h2 class="noto-medium margin-tb-16">
+                        רודמפ לתהילת עולם
+                    </h2>
+                    <p class="noto-regular line-150 margin-tb-0">
+                        אז כשאנחנו נגשים לבנות דיזיין סיסטם ועושים מלא מחקר ורואים את העולמות המושלמים של כל היפים
+                        והאמיצים. מטיריאל, אטליסיאן, קרבון, vibe (מנדיי החמודים שלנו) וכו׳, אנחנו מאמינים שגם אנחנו
+                        מסוגלים לבנות לנו את העולם המושלם הזה. 
+                        ואנחנו חדורי מטרה, אנחנו נעשה סדר בחברה שלנו ונזכה לתהילת עולם.
+                        עוד יכתבו עלינו במדיום, ויזמינו אותנו להרצות במיטאפ במיקרוסופט. אנחנו נסדר את כל האייקונים,
+                        אנחנו נעשה החלטות על הצבעים, נעשה מיגרציה למלא צבעים שלא באמת צריך או שאנחנו באמת לא יודעים
+                        מאיפה הם הגיעו לחיינו. ואפילו נעשה <a
+                            href="https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421"
+                            class="article-link">טוקנים</a>, הרי מדברים על זה בכל מקום.
+                        אנחנו נגדיר את גדלי הפונטים שלנו ואת ההיררכיה שלהם, אנחנו נעשה גרידים (4 פיקסל גריד לשלטון!),
+                        נעשה מיפוי טוב טוב שישכחו מי זה קולומבוס. נבין בדיוק מי זה מי ואיפה כל דבר. נבנה לנו קומפוננטות
+                        מושלמות. אחת אחת. מובנות, מסודרות, נקיות, פשוטות ומתוחכמות כאחד. לא תהיה יותר חוסר אחידות. לא
+                        יהיו יותר שטויות. אנחנו נהיה חכמים. לא יהיה בזבוז זמן (חוץ מהרמות כוסית כמובן, סליחה בשביל מה
+                        אני שכירה?).
+
+                        אנחנו ניקח את הבאטן-מיין שלנו ואנחנו נתקע דגל בפסגת ההימליה.
+                        זה כפתור שאין שני לו (חוץ מסקונדרי : ) יש לו טוקנים! ויש לו גם פוקוס מוגדר היטב - כן פוקוס. יש
+                        לו מינימום ומקסימום, יש לו גדלים רחמנה ליצלן, יש לו דוקומנטציה שלא נראתה. לא פספסנו אף ״דונט״
+                        ואת כל ״הדוז״ עשינו. יש לו אפילו מיני אנימציה של הובר מובנת בקומפוננטה. מצבי הקצה מוגדרים לו, יש
+                        מיפוי לכל השימושים בכל המסכים, יש לו אפילו היסטוריה, יש לו אפילו תיעוד של המיגרציה. ממש כמו
+                        שעושים ללוגואים של חברות גדולות - תציצו רגע מה קרה ללוגו של חברת לגו (<a
+                            href="https://1000logos.net/lego-logo/" class="article-link">סופר קול</a>) והבאטן-מיין שלנו
+                        הוא לא סתם נקרא ככה- הוא בניימינג בדיוק לפי סביבת הפיתוח. אני ראיתי במו עיני. אני הסתובבתי שם.
+
+                        ומבלים מלא זמן, בקטע טוב כמובן, ובונים הכל יפה יפה. חצי שנה שאנחנו מחליטים החלטות ועומדים
+                        מאחוריהם. נפגשים עם הפיתוח פעם בשבוע, להבהיר, להבין , לדבר ולהראות. אפילו רשימת צבעים קיבלנו
+                        מהם.
+                    </p>
+                    <h2 class="noto-medium margin-tb-16">
+                        הרודמפ והחיים עצמם
+                    </h2>
+                    <p class="noto-regular line-150 margin-tb-0">
+                        אז איך זה שעוד לא פיתחו אפילו כפתור אחד? אחד!! אחד!!! ואנחנו המעצבים והמעצבות כבר בדוקומנטציה של
+                        טבלאות, של מודאלים, של פורם. וגם אם פיתחו כפתור אחד. איך זה שהוא מעוות? איך זה שהוא לא בנוי כמו
+                        שאני בניתי? איך זה שהכפתור אייקון שאני בניתי הוא ריבוע? ריבוע!! שווה צלעות! והכפתור אייקון שפותח
+                        הוא פשוט הכפתור הראשי, רק שהורידו לו את הטקסט ואז הוא פשוט עדיין נשאר מלבן, כי הוא לא ב fixed!
+                        אני ביקשתי לעשות בוליאן לטקסט?? אני לא ביקשתי את זה.
+                        <br /><br />
+                        ועשינו דוקומנטציה ועברנו עליה יחד.
+                        <br /><br />
+                        ודיברנו על הדברים, ממש כל שבוע.
+                        <br />
+                        ואנשים עשו לי כן עם הראש.
+                    </p>
+                    <img src="images/article_01_charley-min.gif" alt="Headache GIF" class="full-width margin-tb-40" />
+                    <p class="noto-regular line-150 margin-tb-0">
+                        אנחנו חוקרים, אנחנו מחליטים, אנחנו מעצבים ומתקדמים, אבל תוך כדי חייבים תמיד להיות במודעות למה
+                        אנחנו עושים, באיזה סיטואציה הפיתוח. זה לא רק מבאס שמבינים שעשינו מלא דברים שהיו אמורים להיות
+                        מערכתיים ובסוף לא משתמשים בהם בכלל
+                        זה גם פשוט לא יעיל וגוזל זמן.
+                        כשאנחנו התקדמנו עם התשתיות, עם הגדרות הטוקנים, הגרידים, האלביישן, הטיפוגרפיה, כשבנינו את הכל
+                        בקומפוננטות כדי שבאמת סוף סוף תהיה לנו סיסטמה, שנוכל לעשות שינוי במקום אחד וזה יחלחל לכל
+                        המקומות. שנוכל לחסוך זמן.אז אחרי שבנינו יחד את כל התשתיות, לקבל תשובה כמו:
+                        ״אה זה יקח מלא זמן לעדכן בכל המקומות, פשוט יקח לי שבועיים רק למצוא את כל המקומות שהצבע הזה
+                        מופיע״ בהילת ״פשוט אצלנו זה עובד אחרת״ זה מאוד מאוד קשה לשמוע. כי אם היינו הרי נחשפים ומבינים את
+                        ה״אחרת״ הזה היינו יכולים לתת את הדעת עליו ולראות איך אנחנו מתייחסים לכל דבר, וכל נושא ממש
+                        כשאנחנו בונים.
+                        <br /><br />
+                        אחרי כל העבודה שעשינו, שינוי שלנו לוקח ממש כמה דקות וחשבנו שיקח גם לפיתוח כמה דקות ואולי עוד קצת
+                        יותר, בסוף אומרים לנו שיקח שבועיים - זה מתסכל.
+                    </p>
+                    <h2 class="noto-medium margin-tb-16">
+                        צריך הגדרת תהליכים בחיים
+                    </h2>
+                    <p class="noto-regular line-150 margin-tb-0">
+                        אז מה עושים? צועדים יחד, בתקשורת ובהבנה. וגם אם זה לא ממש יד ביד. זה בסדר. כל עוד זה מוגדר. אתה
+                        תתפוס בצד אחד ואני בצד השני, אתה לא תופס? אין בעיה, אני אקח על הגב. חייבים לתקשר עם הפיתוח כבר
+                        בשלב שאנחנו בונים את התשתיות, הצבעים, הטיפוגרפיה... ולאחר מכן עוברים יחד קומפוננטה קומפוננטה,
+                        בלי למצמץ. גם אם יש מפתח או מפתחת שהוגדרו על הסיסטם וזה נראה שהפריוריטי של החברה בעדנו, אנחנו
+                        עדיין חייבים להיות עם העכבר על הדופק כל הזמן, בכל שלב. לוודא שאנחנו aligned לאורך כל הדרך. ואם
+                        לא, למה? מה אנחנו יכולים לעשות? איך אנחנו יכולים להטמיע את הצורה שהפיתוח חושב אצלנו בפיגמה. ככל
+                        שנחשף יותר לסביבת הפיתוח, נבין יותר ונדע איך להתאים או לא להתאים את המערכת שלנו.
+                    </p>
+                    <h2 class="noto-medium margin-tb-16">
+                        צריך תקשורת בחיים
+                    </h2>
+                    <p class="noto-regular line-150 margin-tb-0">
+                        ראינו, חקרנו והסכמנו על סכמה מסוימת לכתיבת הטוקנים שלנו. קיבלנו עליה אישור.
+                        יצרנו קומפוננטה ובמשך חצי יום יצרנו גם את הטוקנים שלה. וכך לעוד עשר קומפוננטות בסיס. לאחר חצי
+                        שנה של ״כן עם הראש״, התברר שהפיתוח יישמו אחרת את הטוקנים או בעצם לא יישמו בכלל. החמישה ימים האלה
+                        שבילינו בלעשות טוקנים לאותן קומפוננטות היו יכולים להיות מנוצלים למשהו אחר.
+                        זה בסדר גמור שהפיתוח לא עובד תמיד בדיוק כמונו, זה רק צריך להיות ברור ומוגדר, מה ההשלכות? מה
+                        הפעולות שאנחנו כן עושים מצד העיצוב ששווה לעשות אפילו שהן עוזרות רק לעיצוב? ואולי פעולות שעכשיו
+                        לא, אבל בעתיד כן יכולות לעזור לפיתוח. שווה להגדיר <a
+                            href="https://givetm.medium.com/dod-check-list-for-designers-e488f0007780"
+                            class="article-link">מה ה definition of done של קומפוננטה לא?</a> איזה
+                        תענוג זה יהיה כשתרד הדרישה בחברה לעשות גם dark theme פתאום וזה יקח לנו רק כמה ימים (ולא שנה כמו
+                        שחשבו). ואחר כך בבניית הפלואים כל מסך ומסך פשוט יהיה לחיצת כפתור למעבר בין ה <a
+                            href="https://givetm.medium.com/dod-check-list-for-designers-e488f0007780"
+                            class="article-link">themes</a>. כמה זמן זה
+                        לחיצת כפתור? בין שניה לשניה וחצי - ללקק את האצבעות.לכן, אם מתקשרים, מודעים למגבלות ומשקיעים
+                        בהגדרות - באמת שאפשר לייצר משהו נפלא. וגם אם הוא כמעט נפלא, זה במודע. אנחנו יודעים איפה בדיוק
+                        המקומות הנכונים להשקיע כדי שזה יהיה נפלא בדיוק עבורנו.
+                    </p>
+                    <img src="images/article_01_be_prepared.gif" alt="Be prepared GIF"
+                        class="full-width margin-tb-40" />
+                    <h2 class="noto-medium margin-tb-16">
+                        תהיו מוכנים
+                    </h2>
+                    <p class="noto-regular line-150 margin-tb-0">
+                        אנחנו נשמע הרבה: ״אה לא חשבתי שזה יעניין אתכם, אבל מה זה משנה לכם? אבל זה ענייני פיתוח, לא רציתי
+                        לשעמם אתכם״ וכו׳.
+                        ואנחנו נענה: ״אז איך אתם כן עושים את זה אצלכם? אפשר לראות? לא זה לא ישעמם אותי, להיפך!״ (חיוך)
+                        ״אז רגע התשתית היא במטיראל ועל זה פלטר, תוכל ממש בכמה דקות להראות לי מה זה אומר?״
+                        <br /><br />
+                        כשאנחנו נצעד יחד אל השקיעה, היא תהיה מוגדרת היטב, אחוז אופסיטי וטוקן לצבע (bg.sunset-primary).
+                        והשקיעה של היום אחרי תהיה פשוט בלחיצת כפתור. כדי שישאר לנו מספיק זמן לוויקלי, לדיילי ולהאוורלי.
+                        צ׳ירז!
+                    </p>
+                    <br/>
+                    <img src="images/article_01_end-min.jpg" class="full-width" />
+
+                    <hr class="darker-hr margin-t-40 margin-b-40" />
+
+                    <div class="r-flex-start r-flex-mob flex-center g-20 g-8-mob">
+                        <img src="images/avatar_eti.jpg" class="avatar" />
+                        <div class="c-flex-start">
+                            <p class="noto-semi margin-tb-0 font-12-mob">אתי לייפר שרביט</p>
+                            <div class="r-flex-center g-4">
+                                <p class="noto-semi margin-tb-0 font-12-mob">Senior Design System Designer ב- kido
+                                </p>
+                                <img src="images/ic-linkedin.svg" class="hidden" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="c-flex-start max-50 max-100-mob right-div">
+                <div class="section mob-hidden hidden">
+                    <h3 class="noto-regular gray">תגיות:</h3>
+                    <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
+                        <button class="chip noto-semi margin-t-0">תגית</button>
+                        <button class="chip noto-semi margin-t-0">תגית אחרת</button>
+                    </div>
+                </div>
+                <hr class="mob-show darker-hr" />
+                <div class="section padding-b-80">
+                    <h3 class="noto-regular gray">מאמרים מומלצים:</h3>
+                    <div class="c-flex-start g-40">
+
+                        <div class="c-flex-start">
+
+                            <a href="article_02.html" target="_self" class="no-link small">
+                                <h3 class="noto-semi margin-b-12 margin-t-12 grow">מה זה חוב עיצובי, ומה הקשר שלו ל-
+                                    DesignOps</h3>
+                            </a>
+                            <div class="r-flex-start g-20 r-flex-mob flex-center">
+                                <img src="images/avatar_dina.jpg" class="avatar" />
+                                <p class="noto-regular">מאת: דינה ניימן</p>
+                            </div>
+                        </div>
+                        <div class="c-flex-start">
+
+                            <a href="article_03.html" target="_self" class="no-link small">
+                                <h3 class="noto-semi margin-b-12 margin-t-12 grow">עקביות בעיצוב בסקייל: ניתוח variables
+                                    בפיגמה</h3>
+                            </a>
+                            <div class="r-flex-start g-20 r-flex-mob flex-center">
+                                <img src="images/avatar_julia.jpg" class="avatar" />
+                                <p class="noto-regular">מאת: יוליה סקיגר</p>
+                            </div>
+                        </div>
+                        <div class="c-flex-start hidden">
+
+                            <h3 class="noto-semi margin-b-12 margin-t-12 grow">מה זה DesignOps?</h3>
+                            <div class="r-flex-start g-20 r-flex-mob flex-center">
+                                <img src="images/avatar_dina.jpg" class="avatar" />
+                                <p class="noto-regular">מאת: יוליה סקיגר</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="c-flex-start width-30 right-div"></div>
+        </div>
+
+    </div>
+    <div id="wrapper">
+        <iframe src="footer.html" frameborder="0" class="full-width footer-frame"
+            onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
+        <footer></footer>
+    </div>
+</body>
+
+</html>
