@@ -70,8 +70,8 @@ body:has(#wrapper) {
 #embedPopup iframe {
     border: none;
     outline: none;
-    width: 80vmin !important;
-    height: 45vmin !important;
+    width: 92vmin !important;
+    height: 51.75vmin !important;
     border-radius: 8px;
 }
 
