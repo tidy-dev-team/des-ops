@@ -57,14 +57,14 @@ body:has(#wrapper) {
     position: fixed;
     top: 0;
     left: 0;
-    width: calc(100% - 64px);
+    width: calc(100% - 24px);
     height: 100%;
     z-index: 999;
     background-color: #000000aa;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 12px;
 }
 
 #embedPopup iframe {
