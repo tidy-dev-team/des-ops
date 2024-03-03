@@ -581,7 +581,9 @@ button.seker-button::after {
     gap: 4px;
 }
 
-
+.min-25 {
+    min-width: calc(25% - 30px);
+}
 .max-50 {
     max-width: 50%;
 }
@@ -838,6 +840,9 @@ footer {
 
 .mob-show {
     display: none;
+}
+#articlesScroll{
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 1100px) {

@@ -113,11 +113,11 @@
       <div class="r-flex-center full-width space-between g-4">
         <h3 class="noto-regular">מאמרים</h3>
         <div class="spacer grow"></div>
-        <button class="icon arrow"><img src="images/ic-arrow.svg" class="flipped" /></button>
-        <button class="icon arrow"><img src="images/ic-arrow.svg" /></button>
+        <button class="icon arrow" onclick="document.getElementById('articlesScroll').style.justifyContent='flex-start';"><img src="images/ic-arrow.svg" class="flipped" /></button>
+        <button class="icon arrow" onclick="document.getElementById('articlesScroll').style.justifyContent='flex-end';"><img src="images/ic-arrow.svg" /></button>
       </div>
-      <div class="r-flex-start g-40">
-        <div class="c-flex-start">
+      <div class="r-flex-start g-40" id="articlesScroll">
+        <div class="c-flex-start min-25">
           <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
             <button class="chip noto-semi margin-t-0">תגית</button>
             <button class="chip noto-semi margin-t-0">תגית עם שם ארוך</button>
@@ -133,7 +133,7 @@
             <p class="noto-regular">מאת: אתי לייפר שרביט</p>
           </div>
         </div>
-        <div class="c-flex-start">
+        <div class="c-flex-start min-25">
           <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
             <button class="chip noto-semi margin-t-0">תגית</button>
             <button class="chip noto-semi margin-t-0">תגית עם שם ארוך</button>
@@ -149,7 +149,7 @@
             <p class="noto-regular">מאת: דינה ניימן</p>
           </div>
         </div>
-        <div class="c-flex-start">
+        <div class="c-flex-start min-25">
           <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
             <button class="chip noto-semi margin-t-0">תגית</button>
             <button class="chip noto-semi margin-t-0">תגית עם שם ארוך</button>
@@ -165,7 +165,7 @@
             <p class="noto-regular">מאת: יוליה סקיגר</p>
           </div>
         </div>
-        <div class="c-flex-start">
+        <div class="c-flex-start min-25">
           <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
             <button class="chip noto-semi margin-t-0">תגית</button>
             <button class="chip noto-semi margin-t-0">תגית עם שם ארוך</button>
@@ -179,6 +179,22 @@
           <div class="r-flex-start g-20 r-flex-mob">
             <img src="images/avatar_karen.jpg" class="avatar" />
             <p class="noto-regular">מאת: קרן שגב</p>
+          </div>
+        </div>
+        <div class="c-flex-start min-25">
+          <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
+            <button class="chip noto-semi margin-t-0">תגית</button>
+            <button class="chip noto-semi margin-t-0">תגית עם שם ארוך</button>
+            <button class="chip noto-semi margin-t-0">תגית בינונית</button>
+          </div>
+          <a href="article_04.html" class="no-link small">
+            <h3 class="noto-semi margin-b-32 margin-t-12 grow">
+              הקשר בין דיזיין סיסטמס, סביבות אג׳ייל ופרודקט מרקט פיט
+            </h3>
+          </a>
+          <div class="r-flex-start g-20 r-flex-mob">
+            <img src="images/avater_ido.jpg" class="avatar" />
+            <p class="noto-regular">מאת: עידו זייפמן</p>
           </div>
         </div>
       </div>
