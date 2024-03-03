@@ -685,6 +685,9 @@ button.seker-button::after {
     top: 0;
     background: #CECECE;
 }
+.no-link.small{
+    min-width: 240px;
+}
 
 .soon {
     position: relative;
