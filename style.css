@@ -375,6 +375,27 @@ button.seker-button::after {
     filter: invert(100%);
 }
 
+.arrow{
+    width: 32px;
+    height: 32px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow img{
+    width: 14px;
+    height: 14px;
+}
+.arrow:hover img{
+    filter: invert(100%);
+}
+
+.flipped{
+    transform: scale(-1, 1);
+}
+
 .rotate-180 {
     transform: rotate(180deg);
 }

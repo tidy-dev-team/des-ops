@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="style.css" />
 
   <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:site" content="https://desops.co.il">
-    <meta property="twitter:title" content="Design Ops Israel">
-    <meta property="twitter:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה">
-    <meta property="twitter:creator" content="@adircode">
-    <meta name="twitter:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg">
-    <meta property="og:title" content="Design Ops Israel" />
-    <meta property="og:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה" />
-    <meta property="og:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg" />
+  <meta property="twitter:site" content="https://desops.co.il">
+  <meta property="twitter:title" content="Design Ops Israel">
+  <meta property="twitter:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה">
+  <meta property="twitter:creator" content="@adircode">
+  <meta name="twitter:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg">
+  <meta property="og:title" content="Design Ops Israel" />
+  <meta property="og:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה" />
+  <meta property="og:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg" />
 
 </head>
 
@@ -24,7 +24,9 @@
   onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div id="embedPopup" class="hidden" onclick="closePopup();">
-      <iframe name="embedFrame" id="framePopup" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe name="embedFrame" id="framePopup" src=""
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
     <div class="section c-flex-center logo">
       <img src="images/ops-logo.svg" />
@@ -63,16 +65,17 @@
           <p class="noto-regular">מרואיין: עופר בן שושן</p>
         </div>
         <div class="c-flex-start">
-          <a href="https://www.youtube.com/embed/E1WQDVKgBOo?si=5B2BFiFNnozJSzZy" target="embedFrame" class="card-link" onclick="showPopup();">
-          <img src="images/interview_03-min.jpg" class="full-width radius-8" />
-          <button class="chip noto-semi">תגית</button>
-          <h2 class="noto-semi">
-            מה הקשר בין עבודה על דיזיין סיסטם לדיזיין אופס?
-        </h2>
-          <p class="noto-regular">
-            מרואיינות: אתי לייפר שרביט ויוליה סקיגר
-          </p>
-        </a>
+          <a href="https://www.youtube.com/embed/E1WQDVKgBOo?si=5B2BFiFNnozJSzZy" target="embedFrame" class="card-link"
+            onclick="showPopup();">
+            <img src="images/interview_03-min.jpg" class="full-width radius-8" />
+            <button class="chip noto-semi">תגית</button>
+            <h2 class="noto-semi">
+              מה הקשר בין עבודה על דיזיין סיסטם לדיזיין אופס?
+            </h2>
+            <p class="noto-regular">
+              מרואיינות: אתי לייפר שרביט ויוליה סקיגר
+            </p>
+          </a>
         </div>
       </div>
     </div>
@@ -107,9 +110,12 @@
     <hr />
 
     <div class="section padding-tb-40 padding-b-140">
-      <h3 class="noto-regular">מאמרים</h3>
-      <button class="icon">R</button>
-      <button class="icon">L</button>
+      <div class="r-flex-center full-width space-between g-4">
+        <h3 class="noto-regular">מאמרים</h3>
+        <div class="spacer grow"></div>
+        <button class="icon arrow"><img src="images/ic-arrow.svg" class="flipped" /></button>
+        <button class="icon arrow"><img src="images/ic-arrow.svg" /></button>
+      </div>
       <div class="r-flex-start g-40">
         <div class="c-flex-start">
           <div class="r-flex-start g-4 r-flex-mob r-flex-tab">
@@ -134,9 +140,9 @@
             <button class="chip noto-semi margin-t-0">תגית בינונית</button>
           </div>
           <a href="article_02.html" class="no-link small">
-          <h3 class="noto-semi margin-b-32 margin-t-12 grow">
-            מה זה חוב עיצובי, ומה הקשר שלו ל- DesignOps
-          </h3>
+            <h3 class="noto-semi margin-b-32 margin-t-12 grow">
+              מה זה חוב עיצובי, ומה הקשר שלו ל- DesignOps
+            </h3>
           </a>
           <div class="r-flex-start g-20 r-flex-mob">
             <img src="images/avatar_dina.jpg" class="avatar" />
@@ -150,9 +156,9 @@
             <button class="chip noto-semi margin-t-0">תגית בינונית</button>
           </div>
           <a href="article_03.html" class="no-link small">
-          <h3 class="noto-semi margin-b-32 margin-t-12 grow">
-            עקביות בעיצוב בסקייל: ניתוח variables בפיגמה
-          </h3>
+            <h3 class="noto-semi margin-b-32 margin-t-12 grow">
+              עקביות בעיצוב בסקייל: ניתוח variables בפיגמה
+            </h3>
           </a>
           <div class="r-flex-start g-20 r-flex-mob">
             <img src="images/avatar_julia.jpg" class="avatar" />
@@ -166,10 +172,10 @@
             <button class="chip noto-semi margin-t-0">תגית בינונית</button>
           </div>
           <a href="article_04.html" class="no-link small">
-          <h3 class="noto-semi margin-b-32 margin-t-12 grow">
-            כוחו של עיצוב בתוך מגבלות
-          </h3>
-        </a>
+            <h3 class="noto-semi margin-b-32 margin-t-12 grow">
+              כוחו של עיצוב בתוך מגבלות
+            </h3>
+          </a>
           <div class="r-flex-start g-20 r-flex-mob">
             <img src="images/avatar_karen.jpg" class="avatar" />
             <p class="noto-regular">מאת: קרן שגב</p>
@@ -402,8 +408,8 @@
               <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/medium.com.ico' />
               <p class="noto-regular">https://medium.com</p>
             </div>
-            <a href="https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421"
-              target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://medium.com/eightshapes-llc/tokens-in-design-systems-25dd82d58421" target="_blank"
+              class="no-link noto-semi">לקריאת המאמר</a>
           </div>
 
         </div>
@@ -417,8 +423,8 @@
               <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/www.designsystemchecklist.com.ico' />
               <p class="noto-regular">https://designsystemchecklist.com</p>
             </div>
-            <a href="https://www.designsystemchecklist.com/" target="_blank"
-              class="no-link noto-semi">לצפייה בצ׳קליסט</a>
+            <a href="https://www.designsystemchecklist.com/" target="_blank" class="no-link noto-semi">לצפייה
+              בצ׳קליסט</a>
           </div>
 
         </div>
@@ -444,8 +450,8 @@
               <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/www.bocasay.com.ico' />
               <p class="noto-regular">https://www.bocasay.com</p>
             </div>
-            <a href="https://www.bocasay.com/benefits-designops/" target="_blank"
-              class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://www.bocasay.com/benefits-designops/" target="_blank" class="no-link noto-semi">לקריאת
+              המאמר</a>
           </div>
 
           <div class="tool-card" onclick="cardClick(event);">
@@ -456,8 +462,8 @@
               <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/www.propelland.com.ico' />
               <p class="noto-regular">https://propelland.com</p>
             </div>
-            <a href="https://propelland.com/wp-content/uploads/2023/04/Design-Systems-Collaborative-Guide.pdf" target="_blank"
-              class="no-link noto-semi">לקריאת המאמר</a>
+            <a href="https://propelland.com/wp-content/uploads/2023/04/Design-Systems-Collaborative-Guide.pdf"
+              target="_blank" class="no-link noto-semi">לקריאת המאמר</a>
           </div>
         </div>
 
@@ -470,8 +476,8 @@
               <img height="16" width="16" src='https://icons.duckduckgo.com/ip3/youtube.com.ico' />
               <p class="noto-regular">https://www.youtube.com</p>
             </div>
-            <a href="https://www.youtube.com/watch?v=JnqtU-_ALGs" target="_blank"
-              class="no-link noto-semi">לצפייה בסרטון</a>
+            <a href="https://www.youtube.com/watch?v=JnqtU-_ALGs" target="_blank" class="no-link noto-semi">לצפייה
+              בסרטון</a>
           </div>
 
           <div class="tool-card" onclick="cardClick(event);">
@@ -507,7 +513,7 @@
       document.getElementById("tools-menu").classList.add("hidden");
     }
 
-    function resetCards(){
+    function resetCards() {
       var x = document.getElementsByClassName("inner-cards");
       var i;
       for (i = 0; i < x.length; i++) {
@@ -523,10 +529,10 @@
       window.open(event.target.querySelectorAll('a')[0].href, "_blank");
     }
 
-    function showPopup(){
+    function showPopup() {
       document.getElementById("embedPopup").classList.remove("hidden");
     }
-    function closePopup(){
+    function closePopup() {
       document.getElementById("embedPopup").classList.add("hidden");
       document.getElementById("framePopup").src = "";
     }
