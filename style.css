@@ -1038,4 +1038,8 @@ footer {
     .arrow{
         display: none;
     }
+    .black{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
