@@ -117,8 +117,8 @@
       <div class="r-flex-center full-width space-between g-4">
         <h3 class="noto-regular">מאמרים</h3>
         <div class="spacer grow"></div>
-        <button class="icon arrow" onclick="document.getElementById('articlesScroll').style.justifyContent='flex-start';"><img src="images/ic-arrow.svg" class="flipped" /></button>
-        <button class="icon arrow" onclick="document.getElementById('articlesScroll').style.justifyContent='flex-end';"><img src="images/ic-arrow.svg" /></button>
+        <button class="icon arrow disabled" id="arrow_1" onclick="arrowFor();"><img src="images/ic-arrow.svg" class="flipped" /></button>
+        <button class="icon arrow" id="arrow_2" onclick="arrowBack();"><img src="images/ic-arrow.svg" /></button>
       </div>
       <div class="r-flex-start g-40" id="articlesScroll">
         <div class="c-flex-start min-25">
@@ -555,6 +555,17 @@
     function closePopup() {
       document.getElementById("embedPopup").classList.add("hidden");
       document.getElementById("framePopup").src = "";
+    }
+
+    function arrowFor(){
+      document.getElementById('articlesScroll').style.justifyContent='flex-start';
+      document.getElementById("arrow_1").classList.add("disabled");
+      document.getElementById("arrow_2").classList.remove("disabled");
+    }
+    function arrowBack(){
+      document.getElementById('articlesScroll').style.justifyContent='flex-end';
+      document.getElementById("arrow_1").classList.remove("disabled");
+      document.getElementById("arrow_2").classList.add("disabled");
     }
   </script>
 </body>
