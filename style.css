@@ -408,6 +408,10 @@ button.seker-button::after {
     border-radius: 8px;
 }
 
+.shorts-img{
+    aspect-ratio: 16 / 9;
+}
+
 .input-wrapper {
     border: 1px solid var(--ops-text);
     border-radius: 9999px;
