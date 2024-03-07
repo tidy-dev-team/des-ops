@@ -13,7 +13,7 @@ Author: Adir SL
 }
 
 html {
-    background-color: #FFEDBE;
+    background-color: none;
 }
 
 body {
@@ -22,14 +22,15 @@ body {
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-weight: 400;
 }
-h1{
+
+h1 {
     font-size: 3.5em;
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-weight: 700;
     margin-top: 0;
 }
 
-h2{
+h2 {
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-weight: 500;
     font-size: 1.8em;
@@ -39,11 +40,59 @@ h2{
     margin-bottom: 16px;
 }
 
-p{
+p {
     max-width: 55vw;
     line-height: 150%;
     margin-top: 40px;
     font-family: 'Noto Sans Hebrew', sans-serif;
     font-weight: 400;
     margin-bottom: 0;
+}
+
+#wrapper {
+    width: calc(100% - 160px);
+    max-width: 1200px;
+    padding: 24px 80px;
+    color: var(--ops-text);
+}
+
+#wrapper.article {
+    width: calc(100% - 400px);
+    padding: 24px 200px;
+    max-width: 1200px;
+    color: var(--ops-text);
+}
+
+.c-flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.footer-frame {
+    height: 100vh;
+    position: relative;
+    user-select: none;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
+    mix-blend-mode: darken;
+    pointer-events: none;
 }
