@@ -1,5 +1,5 @@
 /**
-Theme Name: DesOps
+Theme Name: DESO
 Author: Adir SL
 **/
 
@@ -43,6 +43,13 @@ h2 {
     padding: 0;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 500;
+    color: #8C8C8C;
 }
 
 p {
@@ -100,4 +107,10 @@ footer {
     background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
     mix-blend-mode: darken;
     pointer-events: none;
+}
+
+img {
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 40px;
 }
