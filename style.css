@@ -391,6 +391,10 @@ button.seker-button::after {
 .arrow:hover img{
     filter: invert(100%);
 }
+.arrow.disabled{
+    pointer-events: none;
+    opacity: .5;
+}
 
 .flipped{
     transform: scale(-1, 1);
