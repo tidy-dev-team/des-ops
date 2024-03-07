@@ -41,11 +41,11 @@
         לקבלת תכנים ועדכונים וספאם שאנשים אוהבים :)
       </h3>
       <form id="email-form" class="r-flex-start input-wrapper">
-        <input type="email" placeholder="המייל שלך פה" class="haas-semi" id="user-email" value="" />
+        <input type="email" placeholder="המייל שלך פה" class="haas-semi" id="user-email" value="" oninput="resetThanks();" />
         <button type="submit" class="icon-button">
           <div class="icon" style="--url: url(images/ic-arrow.svg)"></div>
         </button>
-        <p class="email-footer noto-regular hidden">קיבלנו את המייל, תודה!</p>
+        <p class="email-footer noto-regular hidden" id="thanks">קיבלנו את המייל, תודה!</p>
       </form>
     </div>
   </div>
@@ -81,7 +81,12 @@
         },
         body: "email=" + encodeURIComponent(userEmail),
       });
+      document.getElementById("thanks").classList.remove("hidden");
     });
+
+    function resetThanks(){
+      document.getElementById("thanks").classList.add("hidden");
+    }
 </script>
 
 </html>
