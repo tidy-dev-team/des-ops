@@ -413,6 +413,14 @@ button.seker-button::after {
     border-radius: 9999px;
     width: fit-content;
     padding: 4px;
+    position: relative;
+}
+.email-footer{
+    position: absolute;
+    top: 100%;
+    right: 16px;
+    margin: 0;
+    margin-top: 8px;
 }
 
 .input-wrapper input {
@@ -951,6 +959,7 @@ footer {
     .input-wrapper {
         flex-direction: row;
         width: calc(100% - 12px);
+        position: relative;
     }
 
     .input-wrapper input {
