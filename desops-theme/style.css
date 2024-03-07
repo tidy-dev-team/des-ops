@@ -1,0 +1,49 @@
+/**
+Theme Name: DesOps
+Author: Adir SL
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
+
+:root {
+    --text-size: 16px;
+    --ops-text: #101010;
+    --ops-white: #FFFAF4;
+    --ops-select: #f4ff79;
+}
+
+html {
+    background-color: #FFEDBE;
+}
+
+body {
+    font-size: var(--text-size);
+    background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
+}
+h1{
+    font-size: 3.5em;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+h2{
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 500;
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p{
+    max-width: 55vw;
+    line-height: 150%;
+    margin-top: 40px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
