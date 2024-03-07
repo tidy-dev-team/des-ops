@@ -393,7 +393,7 @@ button.seker-button::after {
 }
 .arrow.disabled{
     pointer-events: none;
-    opacity: .5;
+    opacity: .2;
 }
 
 .flipped{
