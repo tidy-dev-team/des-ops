@@ -1,5 +1,5 @@
 /*!
-Theme Name: DesOpsIL
+Theme Name: Des
 Theme URI: http://underscores.me/
 Author: Adir SL
 Author URI: http://underscores.me/
@@ -1092,6 +1092,10 @@ img {
 /* FOOTER */
 
 .black {
+	max-width: 1200px !important;
+	width: calc(100% - 400px) !important;
+}
+.width-section {
 	max-width: 1200px !important;
 	width: calc(100% - 400px) !important;
 }
