@@ -66,6 +66,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
+
+@import url('https://desops.co.il/fonts/font-noto.css');
+@import url('https://desops.co.il/fonts/font-haas.css');
+
 html {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
@@ -495,8 +501,8 @@ ol {
 	list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
 	margin-bottom: 0;
 	margin-left: 1.5em;
 }
@@ -673,8 +679,8 @@ textarea {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover>ul,
+.main-navigation ul ul li.focus>ul {
 	display: block;
 	left: auto;
 }
@@ -683,8 +689,8 @@ textarea {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
-.main-navigation ul li.focus > ul {
+.main-navigation ul li:hover>ul,
+.main-navigation ul li.focus>ul {
 	left: auto;
 }
 
@@ -715,10 +721,8 @@ textarea {
 }
 
 .site-main .comment-navigation,
-.site-main
-.posts-navigation,
-.site-main
-.post-navigation {
+.site-main .posts-navigation,
+.site-main .post-navigation {
 	margin: 0 0 1.5em;
 }
 
@@ -969,205 +973,214 @@ textarea {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
-
-@import url('fonts/font-noto.css');
-@import url('https://desops.co.il/fonts/font-haas.css');
+/* NEW STYLES */
 
 :root {
-    --text-size: 16px;
-    --ops-text: #101010;
-    --ops-white: #FFFAF4;
-    --ops-select: #f4ff79;
+	--text-size: 16px;
+	--ops-text: #101010;
+	--ops-white: #FFFAF4;
+	--ops-select: #f4ff79;
 }
 
 html {
-    background-color: none;
+	background-color: none;
 }
 
 body {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    direction: rtl;
-    font-size: var(--text-size);
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	direction: rtl;
+	font-size: var(--text-size);
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
 }
 
 h1 {
-    font-size: 3.5em;
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-weight: 700;
-    margin-top: 0;
+	font-size: 3.5em;
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	font-weight: 700;
+	margin-top: 0;
 }
 
 h2 {
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-weight: 500;
-    font-size: 1.8em;
-    margin: 0;
-    padding: 0;
-    margin-top: 16px;
-    margin-bottom: 16px;
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	font-weight: 500;
+	font-size: 1.8em;
+	margin: 0;
+	padding: 0;
+	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 h3 {
-    font-size: 1.5em;
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-weight: 500;
-    color: #8C8C8C;
+	font-size: 1.5em;
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	font-weight: 500;
+	color: #8C8C8C;
 }
 
 p {
-    max-width: 55vw;
-    line-height: 150%;
-    margin-top: 40px;
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-weight: 400;
-    margin-bottom: 0;
+	max-width: 55vw;
+	line-height: 150%;
+	margin-top: 40px;
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	font-weight: 400;
+	margin-bottom: 0;
 }
 
 #wrapper {
-    width: calc(100% - 160px);
-    max-width: 1200px;
-    padding: 24px 80px;
-    color: var(--ops-text);
+	width: calc(100% - 160px);
+	max-width: 1200px;
+	padding: 24px 80px;
+	color: var(--ops-text);
 }
 
 #wrapper.article {
-    width: calc(100% - 400px);
-    padding: 24px 200px;
-    max-width: 1200px;
-    color: var(--ops-text);
+	width: calc(100% - 400px);
+	padding: 24px 200px;
+	max-width: 1200px;
+	color: var(--ops-text);
 }
 
 .c-flex-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo img {
-    max-width: 200px;
+	max-width: 200px;
 }
 
 .footer-frame {
-    height: 100vh;
-    position: relative;
-    user-select: none;
-    width: 100%;
+	height: 100vh;
+	position: relative;
+	user-select: none;
+	width: 100%;
 }
 
 .full-width {
-    width: 100%;
+	width: 100%;
 }
 
 footer {
-    position: absolute;
-    width: 100%;
-    height: 300px;
-    margin: 0;
-    left: 0;
-    bottom: 0;
-    background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
-    mix-blend-mode: darken;
-    pointer-events: none;
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	margin: 0;
+	left: 0;
+	bottom: 0;
+	background: linear-gradient(0deg, #FFEDBE -10.75%, #FFFAF4 100%);
+	mix-blend-mode: darken;
+	pointer-events: none;
 }
 
 img {
-    width: 100%;
-    margin-bottom: 80px;
-    margin-top: 40px;
+	width: 100%;
+	margin-bottom: 80px;
+	margin-top: 40px;
 }
 
 /* FOOTER */
 
-.black{
-	max-width: 1200px;
-	width: calc(100% - 400px);
+.black {
+	max-width: 1200px !important;
+	width: calc(100% - 400px) !important;
 }
-.black h1{
-	font-family: "haas";
-    font-weight: 600;
+
+.black h1 {
+	font-family: "haas" !important;
+	font-weight: 600 !important;
 }
-.black h3{
+
+.black h3 {
 	color: #ffffff;
 }
+
 button.seker-button {
-	position: relative;
-    padding: 20px 40px;
-    border-radius: 999px;
-    background-color: var(--ops-text);
-    color: var(--ops-white);
-    font-size: 1.2em;
-    cursor: pointer;
-    overflow: hidden;
-    border: 2px solid var(--ops-white);
-    margin-bottom: 40px;
+	position: relative !important;
+	padding: 20px 40px !important;
+	border-radius: 999px !important;
+	background-color: var(--ops-text) !important;
+	color: var(--ops-white) !important;
+	font-size: 1.2em !important;
+	cursor: pointer !important;
+	overflow: hidden !important;
+	border: 2px solid var(--ops-white) !important;
+	margin-bottom: 40px !important;
 }
+
 button.seker-button:hover {
-    background-color: var(--ops-white);
-    color: var(--ops-text);
+	background-color: var(--ops-white) !important;
+	color: var(--ops-text) !important;
 }
+
 button.seker-button:focus-visible {
-    outline-offset: 4px;
-    outline: 3px solid var(--ops-white);
+	outline-offset: 4px;
+	outline: 3px solid var(--ops-white) !important;
 }
 
 .input-wrapper {
-    border: 1px solid var(--ops-text);
-    border-radius: 9999px;
-    width: fit-content;
-    padding: 4px;
+	border: 1px solid var(--ops-text) !important;
+	border-radius: 9999px !important;
+	width: fit-content !important;
+	padding: 4px !important;
 }
+
 .input-wrapper input {
-    background-color: transparent;
-    border: none !important;
-    outline: none !important;
-    margin: 0 12px;
-	font-family: "haas";
-    font-weight: 600;
+	background-color: transparent !important;
+	border: none !important;
+	outline: none !important;
+	margin: 0 12px !important;
+	font-family: "haas" !important;
+	font-weight: 600 !important;
 }
+
 .input-wrapper input:placeholder-shown+button {
-    background-color: #a2a2a2;
-    border-color: #a2a2a2;
-    pointer-events: none;
+	background-color: #a2a2a2 !important;
+	border-color: #a2a2a2 !important;
+	pointer-events: none !important;
 }
+
 .input-wrapper .icon-button {
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 20px 40px;
-    border-radius: 999px !important;
-    color: var(--ops-white);
-    font-size: 1.2em;
-    cursor: pointer;
-    overflow: hidden;
-    border: 1px solid var(--ops-text);
+	width: 40px !important;
+	height: 40px !important;
+	padding: 0 !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	position: relative !important;
+	padding: 20px 40px !important;
+	border-radius: 999px !important;
+	color: var(--ops-white) !important;
+	font-size: 1.2em !important;
+	cursor: pointer !important;
+	overflow: hidden !important;
+	border: 1px solid var(--ops-text) !important;
 }
+
 .no-link {
-    color: #000000 !important;
-    text-decoration: none;
-    position: relative;
-    line-height: 200%;
+	color: #000000 !important;
+	text-decoration: none !important;
+	position: relative !important;
+	line-height: 200% !important;
 }
+
 .margin-tb-0 {
-    margin-top: 0;
-    margin-bottom: 0;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
 }
-.noto, .noto-regular {
-    font-family: 'Noto Sans Hebrew', sans-serif;
-    font-weight: 400;
+
+.noto,
+.noto-regular {
+	font-family: 'Noto Sans Hebrew', sans-serif !important;
+	font-weight: 400 !important;
 }
