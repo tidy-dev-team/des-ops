@@ -1086,3 +1086,35 @@ img {
 }
 
 /* FOOTER */
+
+.black{
+	max-width: 1200px;
+	width: calc(100% - 400px);
+}
+.black h1{
+	font-family: "haas";
+    font-weight: 600;
+}
+.black h3{
+	color: #ffffff;
+}
+button.seker-button {
+	position: relative;
+    padding: 20px 40px;
+    border-radius: 999px;
+    background-color: var(--ops-text);
+    color: var(--ops-white);
+    font-size: 1.2em;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--ops-white);
+    margin-bottom: 40px;
+}
+button.seker-button:hover {
+    background-color: var(--ops-white);
+    color: var(--ops-text);
+}
+button.seker-button:focus-visible {
+    outline-offset: 4px;
+    outline: 3px solid var(--ops-white);
+}
