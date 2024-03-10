@@ -60,7 +60,7 @@
       <a href="https://www.wearekido.com" class="no-link r-flex-center" target="_blank">
         <img src="https://desops.co.il/images/kido-logo.svg" />
       </a>
-      <p class="haas-semi">by</p>
+      <p class="haas-semi" style="margin:0;">by</p>
     </div>
   </div>
 <!-- <div id="wrapper">

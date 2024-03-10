@@ -1089,13 +1089,25 @@ img {
 	margin-top: 40px;
 }
 
+.article a {
+    color: var(--ops-text);
+    text-underline-offset: 2px;
+    text-decoration: underline;
+}
+
+.article a:hover {
+    color: #696969;
+    text-underline-offset: 2px;
+}
+
 /* FOOTER */
 
 .black {
 	max-width: 1200px !important;
 	width: calc(100% - 400px) !important;
 }
-.width-section {
+
+.width-section, .darker-hr {
 	max-width: 1200px !important;
 	width: calc(100% - 400px) !important;
 }
@@ -1162,7 +1174,6 @@ button.seker-button:focus-visible {
 	justify-content: center !important;
 	align-items: center !important;
 	position: relative !important;
-	padding: 20px 40px !important;
 	border-radius: 999px !important;
 	color: var(--ops-white) !important;
 	font-size: 1.2em !important;
@@ -1187,4 +1198,17 @@ button.seker-button:focus-visible {
 .noto-regular {
 	font-family: 'Noto Sans Hebrew', sans-serif !important;
 	font-weight: 400 !important;
+}
+
+.icon {
+	min-width: 16px;
+	min-height: 16px;
+}
+
+.no-link img{
+	margin: 0;
+}
+
+.logo-section{
+	margin-bottom: 24px;
 }
