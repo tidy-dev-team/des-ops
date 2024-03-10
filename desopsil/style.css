@@ -1130,8 +1130,8 @@ button.seker-button:focus-visible {
 }
 .input-wrapper input {
     background-color: transparent;
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
     margin: 0 12px;
 	font-family: "haas";
     font-weight: 600;
@@ -1150,7 +1150,7 @@ button.seker-button:focus-visible {
     align-items: center;
     position: relative;
     padding: 20px 40px;
-    border-radius: 999px;
+    border-radius: 999px !important;
     color: var(--ops-white);
     font-size: 1.2em;
     cursor: pointer;
@@ -1158,12 +1158,10 @@ button.seker-button:focus-visible {
     border: 1px solid var(--ops-text);
 }
 .no-link {
-    color: #000000;
+    color: #000000 !important;
     text-decoration: none;
     position: relative;
     line-height: 200%;
-	font-family: "haas";
-    font-weight: 600;
 }
 .margin-tb-0 {
     margin-top: 0;
