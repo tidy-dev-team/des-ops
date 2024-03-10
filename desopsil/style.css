@@ -971,6 +971,9 @@ textarea {
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;500;600;700&display=swap');
 
+@import url('fonts/font-noto.css');
+@import url('https://desops.co.il/fonts/font-haas.css');
+
 :root {
     --text-size: 16px;
     --ops-text: #101010;
@@ -1117,4 +1120,56 @@ button.seker-button:hover {
 button.seker-button:focus-visible {
     outline-offset: 4px;
     outline: 3px solid var(--ops-white);
+}
+
+.input-wrapper {
+    border: 1px solid var(--ops-text);
+    border-radius: 9999px;
+    width: fit-content;
+    padding: 4px;
+}
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: 0 12px;
+	font-family: "haas";
+    font-weight: 600;
+}
+.input-wrapper input:placeholder-shown+button {
+    background-color: #a2a2a2;
+    border-color: #a2a2a2;
+    pointer-events: none;
+}
+.input-wrapper .icon-button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px 40px;
+    border-radius: 999px;
+    color: var(--ops-white);
+    font-size: 1.2em;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid var(--ops-text);
+}
+.no-link {
+    color: #000000;
+    text-decoration: none;
+    position: relative;
+    line-height: 200%;
+	font-family: "haas";
+    font-weight: 600;
+}
+.margin-tb-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.noto, .noto-regular {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
 }

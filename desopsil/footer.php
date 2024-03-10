@@ -12,7 +12,6 @@
 ?>
 
 </div>
-<body style="background: #fffaf4;">
   <div class="section c-flex-center black margin-tb-40">
     <div class="r-flex-center g-20 text-left">
       <div class="c-flex-center full-width g-4">
