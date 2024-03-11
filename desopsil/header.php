@@ -25,5 +25,5 @@
 <?php wp_body_open(); ?>
 <div id="wrapper" class="article">
     <div class="section c-flex-center logo">
-        <a href="https://desops.co.il" target="_self"><img src="https://desops.co.il/images/ops-logo.svg" /></a>
+        <a href="https://desops.co.il" target="_self" class="logo"><img src="https://desops.co.il/images/ops-logo.svg" /></a>
     </div>

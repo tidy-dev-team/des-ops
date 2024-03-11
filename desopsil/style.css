@@ -1,5 +1,5 @@
 /*!
-Theme Name: Des
+Theme Name: DesOps
 Theme URI: http://underscores.me/
 Author: Adir SL
 Author URI: http://underscores.me/
@@ -1241,17 +1241,44 @@ button.seker-button:focus-visible {
 }
 
 @media only screen and (max-width: 800px) {
-	html {
-		font-size: 10px;
+	:root {
+		--text-size: 10px !important;
+		font-size: 10px !important;
 	}
-	#wrapper.article{
+
+	#wrapper.article {
 		width: 100vw;
 		min-width: 100vw;
 		max-width: 100vw;
 		padding: 0;
 	}
-	.article img{
+
+	.article img {
 		width: calc(100vw - 80px);
 		min-width: calc(100vw - 80px);
+		margin-bottom: 40px !important;
+	}
+
+	.wp-block-media-text img {
+		border-radius: 9999px;
+		min-width: 48px !important;
+		max-width: 48px !important;
+		width: 48px !important;
+		height: 48px !important;
+	}
+
+	.logo img {
+		min-width: 35vw;
+		width: 35vw;
+		max-width: 35vw;
+	}
+
+	.black {
+		width: 100% !important;
+	}
+
+	.width-section,
+	.darker-hr {
+		width: 100% !important;
 	}
 }
