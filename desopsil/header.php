@@ -27,3 +27,10 @@
     <div class="section c-flex-center logo">
         <a href="https://desops.co.il" target="_self"><img src="https://desops.co.il/images/ops-logo.svg" /></a>
     </div>
+
+	<div class="section r-flex-start margin-tb-80 mob-margin-tb-20">
+            <a href="https://desops.co.il" target="_self" class="no-link small r-flex-center flex-just-start g-12">
+                <div class="icon rotate-180" style="--url:url(images/ic-arrow.svg)"></div>
+                <p class="noto-bold margin-tb-0">לעמוד הבית</p>
+            </a>
+        </div>

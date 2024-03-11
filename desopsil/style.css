@@ -1090,14 +1090,35 @@ img {
 }
 
 .article a {
-    color: var(--ops-text);
-    text-underline-offset: 2px;
-    text-decoration: underline;
+	color: var(--ops-text);
+	text-underline-offset: 2px;
+	text-decoration: underline;
 }
 
 .article a:hover {
-    color: #696969;
-    text-underline-offset: 2px;
+	color: #696969;
+	text-underline-offset: 2px;
+}
+
+.wp-block-media-text img {
+	border-radius: 9999px;
+	width: 48px !important;
+	height: 48px !important;
+}
+.article p{
+	direction: rtl;
+}
+.wp-block-media-text{
+	max-height: 120px !important;
+	grid-template-columns: auto 48px !important;
+}
+.wp-block-media-text__content p{
+	margin: 0;
+	margin-bottom: 32px;
+}
+.wp-block-media-text .wp-block-media-text__content{
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 /* FOOTER */
@@ -1107,7 +1128,8 @@ img {
 	width: calc(100% - 400px) !important;
 }
 
-.width-section, .darker-hr {
+.width-section,
+.darker-hr {
 	max-width: 1200px !important;
 	width: calc(100% - 400px) !important;
 }
@@ -1205,10 +1227,10 @@ button.seker-button:focus-visible {
 	min-height: 16px;
 }
 
-.no-link img{
+.no-link img {
 	margin: 0;
 }
 
-.logo-section{
+.logo-section {
 	margin-bottom: 24px;
 }
