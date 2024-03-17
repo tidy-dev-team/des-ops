@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div class="r-flex-end g-12 space-between padding-tb-40 g-32-mob flex-start-mob width-section">
+  <div class="r-flex-end g-40 space-between padding-tb-40 g-32-mob flex-start-mob width-section">
     <div class="c-flex-start g-4">
       <p class="margin-tb-0 noto-regular">סושיאל</p>
       <h3 class="noto-semi margin-tb-0">
