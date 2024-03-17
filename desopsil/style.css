@@ -1259,9 +1259,9 @@ button.seker-button:focus-visible {
 }
 
 .article .post-thumbnail img{
-	transform: scale(1.5);
-	margin-top: 80px !important;
-	margin-bottom: 120px !important;
+	transform: scale(1.65);
+	margin-top: 80px;
+	margin-bottom: 120px;
 }
 
 @media only screen and (max-width: 800px) {
