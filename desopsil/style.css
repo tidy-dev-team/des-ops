@@ -1304,4 +1304,13 @@ button.seker-button:focus-visible {
 	.black {
 		width: calc(100% - 32px) !important;
 	}
+	.article img{
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	.article img:first-of-type{
+		transform: scale(1.5) !important;
+		margin-top: 80px !important;
+		margin-bottom: 120px !important;
+	}
 }
