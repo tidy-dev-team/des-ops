@@ -12,10 +12,13 @@
  * @package DesOpsIL
  */
 
-get_header();
+ if ( ! is_front_page() ) :
+	get_header();
+endif;
 ?>
+<link rel="stylesheet" href="https://desops.co.il/style.css">
 
-	<main id="primary" class="site-main">
+	<main id="primary" class="site-main" style="direction:rtl;">
 
 		<?php
 		while ( have_posts() ) :
@@ -35,4 +38,6 @@ get_header();
 
 <?php
 get_sidebar();
-get_footer();
+if ( ! is_front_page() ) :
+	get_footer();
+endif;

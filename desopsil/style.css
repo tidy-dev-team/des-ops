@@ -999,6 +999,10 @@ body {
 	direction: rtl;
 	font-size: var(--text-size);
 	font-family: 'Noto Sans Hebrew', sans-serif;
+	background: none;
+}
+
+body:has(.logo){
 	background: linear-gradient(180deg, #FFEDBE 0%, #FFFAF4 14.38%);
 }
 
