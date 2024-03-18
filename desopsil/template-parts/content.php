@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				desopsil_posted_on();
-				desopsil_posted_by();
+				// desopsil_posted_on();
+				// desopsil_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>

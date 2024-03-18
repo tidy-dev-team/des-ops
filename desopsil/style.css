@@ -1131,7 +1131,7 @@ article a {
 	direction: rtl;
 }
 
-article h3{
+article h3 {
 	direction: rtl;
 	text-align: right;
 }
@@ -1139,6 +1139,7 @@ article h3{
 article a {
 	text-decoration: none;
 }
+
 article a:hover {
 	text-decoration: underline;
 }
@@ -1258,11 +1259,56 @@ button.seker-button:focus-visible {
 	margin-bottom: 24px;
 }
 
-.article .post-thumbnail img{
+.article .post-thumbnail img {
 	transform: scale(1.65);
 	margin-top: 100px;
 	margin-bottom: 140px;
 	border-radius: 5px;
+}
+
+.article .entry-content {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.article .entry-content * {
+	margin: 0 !important;
+}
+
+.article .entry-content .wp-block-image img {
+	margin: 0 !important;
+}
+
+.post-navigation .nav-links {
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.entry-content {
+	font-family: 'Noto Sans Hebrew', sans-serif;
+	font-weight: 400;
+	min-height: 100vh;
+}
+
+.entry-content a {
+	color: var(--ops-text);
+	text-underline-offset: 2px;
+	text-decoration: underline;
+}
+
+.entry-content h2 a {
+	text-decoration: none;
+}
+
+.entry-content a:hover {
+	color: #696969;
+	text-underline-offset: 2px;
+	text-decoration: underline;
+}
+
+.entry-content ul {
+	list-style: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1311,7 +1357,8 @@ button.seker-button:focus-visible {
 	.black {
 		width: calc(100% - 32px) !important;
 	}
-	.article img{
+
+	.article img {
 		width: 100% !important;
 		margin: 0 !important;
 		transform: none !important;
