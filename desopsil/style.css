@@ -1311,6 +1311,7 @@ button.seker-button:focus-visible {
 	list-style: none;
 }
 
+
 @media only screen and (max-width: 800px) {
 	:root {
 		--text-size: 10px !important;
