@@ -267,7 +267,7 @@ iframe.footer-frame {
 
 .articles-frame {
     width: 100%;
-    height: 600px;
+    height: 380px;
     border: none;
 }
 
@@ -894,6 +894,27 @@ footer {
     text-decoration: none;
 }
 
+.entry-title {
+    display: none;
+}
+
+.entry-content h2 {
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.entry-content ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.entry-content ul li {
+    width: 33%;
+}
+
 .entry-content a:hover {
     color: #696969;
     text-underline-offset: 2px;
@@ -1103,5 +1124,23 @@ footer {
     .black {
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    /* .entry-content h2 {
+        font-size: 2em !important;
+    } */
+
+    .entry-content ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: unset;
+    }
+
+    .entry-content ul li {
+        width: 100%;
+    }
+
+    .entry-content ul li p {
+        font-size: 1em;
     }
 }
