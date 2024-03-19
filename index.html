@@ -21,7 +21,8 @@
 </head>
 
 <body
-  onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
+  onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"
+  onresize="document.getElementById('articlesWP')[0].style.height=document.getElementById('articlesWP')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div id="embedPopup" class="hidden" onclick="closePopup();">
       <iframe name="embedFrame" id="framePopup" src=""
@@ -89,17 +90,17 @@
         <div class="c-flex-start">
           <a href="https://www.youtube.com/embed/DllaKwVg_BY?si=LsmA57jsI4Hr2O8H" target="embedFrame" class="card-link"
             onclick="showPopup();">
-          <img src="images/shorts_01-min.jpg" class="full-width radius-8 shorts-img" />
-          <button class="chip noto-semi">תגית</button>
-          <h2 class="noto-semi">מה זה דיזיין אופס? חלק א׳</h2>
+            <img src="images/shorts_01-min.jpg" class="full-width radius-8 shorts-img" />
+            <button class="chip noto-semi">תגית</button>
+            <h2 class="noto-semi">מה זה דיזיין אופס? חלק א׳</h2>
           </a>
         </div>
         <div class="c-flex-start">
           <a href="https://www.youtube.com/embed/Y1TeOgKRb94?si=PJi5KSfrhJkkSQoK" target="embedFrame" class="card-link"
             onclick="showPopup();">
-          <img src="images/shorts_02-min.jpg" class="full-width radius-8 shorts-img" />
-          <button class="chip noto-semi">תגית</button>
-          <h2 class="noto-semi">מה זה דיזיין אופס? חלק ב׳</h2>
+            <img src="images/shorts_02-min.jpg" class="full-width radius-8 shorts-img" />
+            <button class="chip noto-semi">תגית</button>
+            <h2 class="noto-semi">מה זה דיזיין אופס? חלק ב׳</h2>
           </a>
         </div>
         <div class="c-flex-start">
@@ -115,7 +116,9 @@
     <hr />
 
     <div class="section padding-tb-40 padding-b-140">
-      <div class="r-flex-center full-width space-between g-4">
+      <iframe src="https://www.desops.co.il/articles" id="articlesWP" class="articles-frame"></iframe>
+
+      <!-- <div class="r-flex-center full-width space-between g-4">
         <h3 class="noto-regular">מאמרים</h3>
         <div class="spacer grow"></div>
         <button class="icon arrow disabled" id="arrow_1" onclick="arrowFor();"><img src="images/ic-arrow.svg" class="flipped" /></button>
@@ -202,7 +205,7 @@
             <p class="noto-regular">מאת: עידו זייפמן</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <hr />
@@ -558,16 +561,17 @@
       document.getElementById("framePopup").src = "";
     }
 
-    function arrowFor(){
-      document.getElementById('articlesScroll').style.justifyContent='flex-start';
+    function arrowFor() {
+      document.getElementById('articlesScroll').style.justifyContent = 'flex-start';
       document.getElementById("arrow_1").classList.add("disabled");
       document.getElementById("arrow_2").classList.remove("disabled");
     }
-    function arrowBack(){
-      document.getElementById('articlesScroll').style.justifyContent='flex-end';
+    function arrowBack() {
+      document.getElementById('articlesScroll').style.justifyContent = 'flex-end';
       document.getElementById("arrow_1").classList.remove("disabled");
       document.getElementById("arrow_2").classList.add("disabled");
     }
+
   </script>
 </body>
 

@@ -261,6 +261,11 @@ iframe.footer-frame {
     filter: invert(100%);
 }
 
+.articles-frame{
+    width: 100%;
+    border: none;
+}
+
 /* button.seker-button {
     position: relative;
     padding: 16px 32px;
