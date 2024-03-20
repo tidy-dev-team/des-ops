@@ -46,7 +46,7 @@
       <form id="email-form" class="r-flex-start input-wrapper">
         <input type="email" placeholder="המייל שלך פה" class="haas-semi" id="user-email" value="" oninput="resetThanks();" />
         <button type="submit" class="icon-button">
-          <div class="icon" style="--url: url(https://desops.co.il/images/ic-arrow.svg)"></div>
+          <div class="icon" style="--url: url(https://www.desops.co.il/images/ic-arrow.svg)"></div>
         </button>
         <p class="email-footer noto-regular hidden" id="thanks">קיבלנו את המייל, תודה!</p>
       </form>
@@ -58,13 +58,13 @@
   <div class="section logo-section">
     <div class="r-flex-center g-12">
       <a href="https://www.wearekido.com" class="no-link r-flex-center" target="_blank">
-        <img src="https://desops.co.il/images/kido-logo.svg" />
+        <img src="https://www.desops.co.il/images/kido-logo.svg" />
       </a>
       <p class="haas-semi" style="margin:0;">by</p>
     </div>
   </div>
 <!-- <div id="wrapper">
-        <iframe src="https://desops.co.il/footer.html" frameborder="0" class="full-width footer-frame"
+        <iframe src="https://www.desops.co.il/footer.html" frameborder="0" class="full-width footer-frame"
             onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
         <footer></footer>
     </div> -->

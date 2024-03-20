@@ -16,7 +16,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="https://desops.co.il/style.css">
+	<link rel="stylesheet" href="https://www.desops.co.il/style.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -25,5 +25,5 @@
 <?php wp_body_open(); ?>
 <div id="wrapper" class="article">
     <div class="section c-flex-center logo">
-        <a href="https://desops.co.il" target="_self" class="logo"><img src="https://desops.co.il/images/ops-logo.svg" /></a>
+        <a href="https://www.desops.co.il" target="_self" class="logo"><img src="https://www.desops.co.il/images/ops-logo.svg" /></a>
     </div>

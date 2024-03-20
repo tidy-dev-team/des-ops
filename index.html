@@ -5,23 +5,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Design Ops Israel</title>
-  <link rel="shortcut icon" type="image/x-icon" href="https://desops.co.il/images/des-favicon.jpg">
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.desops.co.il/images/des-favicon.jpg">
   <link rel="stylesheet" href="style.css" />
 
   <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:site" content="https://desops.co.il">
+  <meta property="twitter:site" content="https://www.desops.co.il">
   <meta property="twitter:title" content="Design Ops Israel">
   <meta property="twitter:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה">
   <meta property="twitter:creator" content="@adircode">
-  <meta name="twitter:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg">
+  <meta name="twitter:image" itemprop="image" content="https://www.desops.co.il/images/social-desops-min.jpg">
   <meta property="og:title" content="Design Ops Israel" />
   <meta property="og:description" content="קהילת מוצר, תשתיות עיצוב, למידה, חקירה משותפת וצמיחה" />
-  <meta property="og:image" itemprop="image" content="https://desops.co.il/images/social-desops-min.jpg" />
+  <meta property="og:image" itemprop="image" content="https://www.desops.co.il/images/social-desops-min.jpg" />
 
 </head>
 
 <body class="post-template-default"
-  onresize="document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
+  onresize="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div id="embedPopup" class="hidden" onclick="closePopup();">
       <iframe name="embedFrame" id="framePopup" src=""
@@ -117,7 +117,7 @@
     <div class="section padding-tb-40">
       <div class="c-flex-start full-width space-between g-4">
         <h3 class="noto-regular">מאמרים</h3>
-        <iframe src="https://www.desops.co.il/articles" id="articlesWP" class="articles-frame"></iframe>
+        <iframe src="/articles" id="articlesWP" class="articles-frame" onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';"></iframe>
       </div>
 
       <!-- <div class="r-flex-center full-width space-between g-4">
@@ -575,15 +575,6 @@
     }
 
   </script>
-  <script>
-    // Selecting the iframe element
-    var iframe = document.getElementById("articlesWP");
-    
-    // Adjusting the iframe height onload event
-    iframe.onload = function(){
-        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-    }
-    </script>
 </body>
 
 </html>

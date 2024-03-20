@@ -15,7 +15,7 @@ if ( ! is_front_page() ) :
 	get_header();
 endif;
 ?>
-<link rel="stylesheet" href="https://desops.co.il/style.css">
+<link rel="stylesheet" href="https://www.desops.co.il/style.css">
 
 	<main id="primary" class="site-main" style="direction:rtl;">
 

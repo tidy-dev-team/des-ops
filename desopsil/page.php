@@ -17,7 +17,7 @@
 endif;
 ?>
 
-<link rel="stylesheet" href="https://desops.co.il/style.css">
+<link rel="stylesheet" href="https://www.desops.co.il/style.css">
 <base target="_top">
 
 	<main id="primary" class="site-main" style="direction:rtl;">
