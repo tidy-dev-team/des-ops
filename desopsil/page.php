@@ -19,6 +19,7 @@ endif;
 
 <?php if( is_front_page() ) : ?>
     <script>
+		console.log(document.getElementsByClassName("wp-block-post-excerpt__excerpt").length);
 		var x = document.getElementsByClassName("wp-block-post-excerpt__excerpt");
 		var i;
 		for (i = 0; i < x.length; i++) {
