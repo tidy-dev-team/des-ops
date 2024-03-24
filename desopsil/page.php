@@ -43,6 +43,10 @@ endif;
 			if(x[i].innerText.includes(".2024") == true){
 				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2024") + 5);
 			}
+
+			if(x[i].innerText.includes("מאת:") == true){
+				x[i].innerText = x[i].innerText.replace("מאת:", "\n\nמאת:");
+			}
 		}
 	</script>
 <?php endif; ?>
