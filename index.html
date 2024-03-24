@@ -2,6 +2,16 @@
 <html lang="he" dir="rtl">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0H11DP51Z9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0H11DP51Z9');
+  </script>
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Design Ops Israel</title>
@@ -117,7 +127,8 @@
     <div class="section padding-tb-40">
       <div class="c-flex-start full-width space-between g-4">
         <h3 class="noto-regular">מאמרים</h3>
-        <iframe src="/articles" id="articlesWP" class="articles-frame" onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';"></iframe>
+        <iframe src="/articles" id="articlesWP" class="articles-frame"
+          onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';"></iframe>
       </div>
 
       <!-- <div class="r-flex-center full-width space-between g-4">
