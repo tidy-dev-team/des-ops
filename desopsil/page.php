@@ -19,7 +19,31 @@ endif;
 
 <?php if( is_front_page() ) : ?>
     <script>
-		console.log('FRONT');
+		var x = document.getElementsByClassName("wp-block-post-excerpt__excerpt");
+		var i;
+		for (i = 0; i < x.length; i++) {
+			if(x[i].innerText.includes(".2030") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2030") + 5);
+			}
+			if(x[i].innerText.includes(".2029") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2029") + 5);
+			}
+			if(x[i].innerText.includes(".2028") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2028") + 5);
+			}
+			if(x[i].innerText.includes(".2027") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2027") + 5);
+			}
+			if(x[i].innerText.includes(".2026") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2026") + 5);
+			}
+			if(x[i].innerText.includes(".2025") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2025") + 5);
+			}
+			if(x[i].innerText.includes(".2024") == true){
+				x[i].innerText = x[i].innerText.slice(0, x[i].innerText.lastIndexOf(".2024") + 5);
+			}
+		}
 	</script>
 <?php endif; ?>
 
