@@ -17,6 +17,12 @@
 endif;
 ?>
 
+<?php if( is_front_page() ) : ?>
+    <script>
+		console.log('FRONT');
+	</script>
+<?php endif; ?>
+
 <link rel="stylesheet" href="https://www.desops.co.il/style.css">
 <base target="_top">
 
