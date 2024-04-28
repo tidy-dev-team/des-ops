@@ -1280,9 +1280,10 @@ button.seker-button:focus-visible {
 ul li div {
 	display: flex;
 	flex-direction: column;
+	gap: 8px !important;
 }
 .entry-content ul li{
-	width: calc(33% - 12px);
+	width: calc(33% - 12px) !important;
 }
 .wp-block-post-template.wp-block-post-template{
 	gap: 12px;
