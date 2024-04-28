@@ -1266,10 +1266,19 @@ button.seker-button:focus-visible {
 	border-radius: 5px;
 }
 
+.article .post-thumbnail img[src$="video.jpg"],
+.article .post-thumbnail img[src$="video.png"] {
+	display: none;
+}
+
 .article .entry-content {
 	display: flex;
 	flex-direction: column;
 	gap: 24px;
+}
+.wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{
+	display: flex;
+	flex-direction: column;
 }
 
 .article .entry-content * {
