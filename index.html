@@ -31,7 +31,7 @@
 </head>
 
 <body class="post-template-default"
-  onresize="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
+  onresize="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+80+'px';">
   <div id="wrapper">
     <div id="embedPopup" class="hidden" onclick="closePopup();">
       <iframe name="embedFrame" id="framePopup" src=""
@@ -540,7 +540,7 @@
     </div>
 
     <iframe src="footer.html" frameborder="0" class="full-width footer-frame"
-      onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';"></iframe>
+      onload="this.style.height=this.contentWindow.document.getElementsByTagName('body')[0].offsetHeight+80+'px';"></iframe>
     <footer></footer>
 
   </div>
