@@ -145,26 +145,29 @@ endif;
 
 <?php if( is_front_page() ) : ?>
 	<script>
-		document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[0].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
-		});
-		document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[1].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
-		});
+		setTimeout(function(){
+			document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[0].addEventListener("click", function(){
+  				document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
+			});
+			document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[1].addEventListener("click", function(){
+				document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
+			});
 
-		document.getElementsByClassName("wp-block-buttons")[1].getElementsByTagName("a")[0].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[1].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
-		});
-		document.getElementsByClassName("wp-block-buttons")[1].getElementsByTagName("a")[1].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[1].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
-		});
+			document.getElementsByClassName("wp-block-buttons")[1].getElementsByTagName("a")[0].addEventListener("click", function(){
+				document.getElementsByTagName("ul")[1].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
+			});
+			document.getElementsByClassName("wp-block-buttons")[1].getElementsByTagName("a")[1].addEventListener("click", function(){
+				document.getElementsByTagName("ul")[1].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
+			});
 
-		document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[0].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
-		});
-		document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[1].addEventListener("click", function(){
-  			document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
-		});
+			document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[0].addEventListener("click", function(){
+				document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
+			});
+			document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[1].addEventListener("click", function(){
+				document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
+			});
+		}, 1000);
+		
 	<script>
 <?php endif; ?>
 
