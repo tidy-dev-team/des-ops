@@ -141,9 +141,6 @@ endif;
 			}
 		}
 	</script>
-<?php endif; ?>
-
-<?php if( is_front_page() ) : ?>
 	<script>
 		setTimeout(function(){
 			document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[0].addEventListener("click", function(){
@@ -166,9 +163,10 @@ endif;
 			document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[1].addEventListener("click", function(){
 				document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
 			});
-		}, 5000);
+			
+		}, 1000);
 		
-	<script>
+	</script>
 <?php endif; ?>
 
 <?php
