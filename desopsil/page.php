@@ -86,6 +86,28 @@ endif;
 			.entry-content hr{
 				margin: 40px 0 !important;
 			}
+
+			.entry-content .wp-block-buttons{
+				display: flex;
+    			flex-direction: row-reverse;
+				gap: 8px;
+			}
+			.entry-content .wp-element-button{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 12px;
+				border-radius: 999px;
+				text-decoration: none;
+				width: 16px;
+				height: 16px;
+				color: white;
+				background-color: black;
+			}
+			.entry-content .wp-element-button:hover{
+				cursor: pointer;
+				text-decoration: none !important;
+			}
 		</style>
     <script>
 		console.log(document.getElementsByClassName("wp-block-post-excerpt__excerpt").length);
