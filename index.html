@@ -31,7 +31,7 @@
 </head>
 
 <body class="post-template-default"
-  onresize="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+80+'px';">
+  onresize="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';document.getElementsByTagName('iframe')[0].style.height=document.getElementsByTagName('iframe')[0].contentWindow.document.getElementsByTagName('body')[0].offsetHeight+'px';">
   <div id="wrapper">
     <div id="embedPopup" class="hidden" onclick="closePopup();">
       <iframe name="embedFrame" id="framePopup" src=""
@@ -134,7 +134,7 @@
       <div class="c-flex-start full-width space-between g-4">
         <!-- <h3 class="noto-regular">מאמרים</h3> -->
         <iframe src="/content" id="articlesWP" class="articles-frame"
-          onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 80 + 'px';"></iframe>
+          onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';" style="overflow: hidden;"></iframe>
       </div>
 
       <!-- <div class="r-flex-center full-width space-between g-4">
