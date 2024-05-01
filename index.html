@@ -134,7 +134,7 @@
       <div class="c-flex-start full-width space-between g-4">
         <!-- <h3 class="noto-regular">מאמרים</h3> -->
         <iframe src="/content" id="articlesWP" class="articles-frame"
-          onload="document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.style.overflow = 'hidden'; document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';"
+          onload="document.getElementById('articlesWP').contentWindow.document.body.style.overflow = 'hidden'; document.getElementById('articlesWP').style.height = document.getElementById('articlesWP').contentWindow.document.body.scrollHeight + 'px';"
           style="overflow: hidden;"></iframe>
       </div>
 
