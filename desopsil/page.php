@@ -52,6 +52,7 @@ endif;
 			.entry-content ul li img {
 				width: 100% !important;
 				height: auto !important;
+				border-radius: 8px !important;
 			}
 			.entry-content ul li figure{
 				margin: 0 !important;
