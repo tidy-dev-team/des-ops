@@ -1289,11 +1289,11 @@ ul li div {
 }
 
 .entry-content ul li img {
-	width: 100%;
-	height: auto;
+	width: 100% !important;
+	height: auto !important;
 }
 .entry-content ul li figure{
-	margin: 0;
+	margin: 0 !important;
 }
 
 .wp-block-post-template.wp-block-post-template {
