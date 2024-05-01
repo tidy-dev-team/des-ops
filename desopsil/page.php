@@ -46,7 +46,7 @@ endif;
 			}
 			.entry-content ul li {
 				width: calc(33% - 8px) !important;
-				padding: 16px !important;
+				padding: 0 !important;
 			}
 
 			.entry-content ul li img {
@@ -58,6 +58,9 @@ endif;
 			}
 			.wp-block-group{
 				padding: 0 !important;
+			}
+			.entry-content .wp-block-heading{
+				margin: 32px 0 !important;
 			}
 		</style>
     <script>
