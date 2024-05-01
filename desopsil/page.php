@@ -40,13 +40,31 @@ endif;
 
 	<?php if( is_front_page() ) : ?>
 		<style>
+			/* width */
+			.entry-content ul::-webkit-scrollbar {
+			width: 0px;
+			}
+
+			/* Track */
+			.entry-content ul::-webkit-scrollbar-track {
+			width: 0px;
+			}
+			
+			/* Handle */
+			.entry-content ul::-webkit-scrollbar-thumb {
+			background: transparent; 
+			}
+
 			.entry-content ul{
-				width: fit-content !important;
+				width: 100% !important;
 				padding: 0 !important;
 				gap: 16px !important;
 				flex-wrap: nowrap !important;
+				overflow: auto !important;
+				scroll-behavior: smooth !important;
 			}
 			.entry-content ul li {
+				flex-shrink: 0 !important;
 				width: calc(33vw - 8px) !important;
 				padding: 0 !important;
 			}
