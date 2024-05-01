@@ -39,6 +39,20 @@ endif;
 	</main><!-- #main -->
 
 	<?php if( is_front_page() ) : ?>
+		<style>
+			.entry-content ul li {
+				width: calc(33% - 32px) !important;
+				padding: 16px !important;
+			}
+
+			.entry-content ul li img {
+				width: 100% !important;
+				height: auto !important;
+			}
+			.entry-content ul li figure{
+				margin: 0 !important;
+			}
+		</style>
     <script>
 		console.log(document.getElementsByClassName("wp-block-post-excerpt__excerpt").length);
 		var x = document.getElementsByClassName("wp-block-post-excerpt__excerpt");
