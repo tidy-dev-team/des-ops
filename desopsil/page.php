@@ -41,11 +41,13 @@ endif;
 	<?php if( is_front_page() ) : ?>
 		<style>
 			.entry-content ul{
+				width: fit-content !important;
 				padding: 0 !important;
 				gap: 16px !important;
+				flex-wrap: nowrap !important;
 			}
 			.entry-content ul li {
-				width: calc(33% - 8px) !important;
+				width: calc(33vw - 8px) !important;
 				padding: 0 !important;
 			}
 
