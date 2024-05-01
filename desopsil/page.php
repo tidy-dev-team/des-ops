@@ -40,8 +40,12 @@ endif;
 
 	<?php if( is_front_page() ) : ?>
 		<style>
+			.entry-content ul{
+				padding: 0 !important;
+				gap: 16px !important;
+			}
 			.entry-content ul li {
-				width: calc(33% - 32px) !important;
+				width: calc(33% - 8px) !important;
 				padding: 16px !important;
 			}
 
@@ -51,6 +55,9 @@ endif;
 			}
 			.entry-content ul li figure{
 				margin: 0 !important;
+			}
+			.wp-block-group{
+				padding: 0 !important;
 			}
 		</style>
     <script>
