@@ -166,7 +166,7 @@ endif;
 			document.getElementsByClassName("wp-block-buttons")[2].getElementsByTagName("a")[1].addEventListener("click", function(){
 				document.getElementsByTagName("ul")[2].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
 			});
-		}, 1000);
+		}, 5000);
 		
 	<script>
 <?php endif; ?>
