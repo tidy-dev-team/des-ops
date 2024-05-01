@@ -148,3 +148,14 @@ get_sidebar();
 if ( ! is_front_page() ) :
 	get_footer();
 endif;
+
+<?php if( is_front_page() ) : ?>
+	<script>
+		document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[0].addEventListener("click", function(){
+  			document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth * -1, 0);
+		});
+		document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[1].addEventListener("click", function(){
+  			document.getElementsByTagName("ul")[0].scrollBy(document.getElementsByTagName("ul")[0].offsetWidth, 0);
+		});
+	<script>
+<?php endif; ?>
