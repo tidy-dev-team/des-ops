@@ -62,6 +62,9 @@ endif;
 			.entry-content .wp-block-heading{
 				margin: 32px 0 !important;
 			}
+			.entry-content hr{
+				margin: 40px 0 !important;
+			}
 		</style>
     <script>
 		console.log(document.getElementsByClassName("wp-block-post-excerpt__excerpt").length);
