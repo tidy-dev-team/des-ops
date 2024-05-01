@@ -143,12 +143,6 @@ endif;
 	</script>
 <?php endif; ?>
 
-<?php
-get_sidebar();
-if ( ! is_front_page() ) :
-	get_footer();
-endif;
-
 <?php if( is_front_page() ) : ?>
 	<script>
 		document.getElementsByClassName("wp-block-buttons")[0].getElementsByTagName("a")[0].addEventListener("click", function(){
@@ -173,3 +167,9 @@ endif;
 		});
 	<script>
 <?php endif; ?>
+
+<?php
+get_sidebar();
+if ( ! is_front_page() ) :
+	get_footer();
+endif;
