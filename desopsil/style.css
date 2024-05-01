@@ -1282,10 +1282,21 @@ ul li div {
 	flex-direction: column;
 	gap: 8px !important;
 }
-.entry-content ul li{
-	width: calc(33% - 12px) !important;
+
+.entry-content ul li {
+	width: calc(33% - 32px) !important;
+	padding: 16px !important;
 }
-.wp-block-post-template.wp-block-post-template{
+
+.entry-content ul li img {
+	width: 100%;
+	height: auto;
+}
+.entry-content ul li figure{
+	margin: 0;
+}
+
+.wp-block-post-template.wp-block-post-template {
 	gap: 12px;
 }
 
