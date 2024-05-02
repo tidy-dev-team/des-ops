@@ -108,6 +108,12 @@ endif;
 				cursor: pointer;
 				text-decoration: none !important;
 			}
+			
+			@media only screen and (max-width: 800px) {
+				.entry-content ul li {
+					width: 100% !important;
+				}
+			}
 		</style>
     <script>
 		console.log(document.getElementsByClassName("wp-block-post-excerpt__excerpt").length);
