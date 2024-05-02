@@ -1292,7 +1292,8 @@ ul li div {
 	width: 100% !important;
 	height: auto !important;
 }
-.entry-content ul li figure{
+
+.entry-content ul li figure {
 	margin: 0 !important;
 }
 
@@ -1339,12 +1340,22 @@ ul li div {
 	list-style: none;
 }
 
-#wrapper.article:has(.wp-block-embed__wrapper){
+#wrapper.article:has(.wp-block-embed__wrapper) {
 	width: calc(100% - 80px) !important;
 	padding: 24px 40px !important;
 }
-#wrapper.article:has(.wp-block-embed__wrapper) .entry-content{
+
+#wrapper.article:has(.wp-block-embed__wrapper) .entry-content {
 	min-height: 0 !important;
+}
+
+.wp-block-embed__wrapper iframe {
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.wp-block-embed__wrapper {
+	aspect-ratio: 16 / 9 !important;
 }
 
 
