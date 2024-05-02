@@ -54,6 +54,7 @@ endif;
 			.entry-content ul::-webkit-scrollbar-thumb {
 			background: transparent; 
 			}
+			
 			html, body{
 				background: none !important;
 			}
