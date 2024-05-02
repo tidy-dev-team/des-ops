@@ -54,7 +54,7 @@ endif;
 			.entry-content ul::-webkit-scrollbar-thumb {
 			background: transparent; 
 			}
-			
+
 			html, body{
 				background: none !important;
 			}
@@ -118,6 +118,9 @@ endif;
 				}
 				.entry-content .wp-block-buttons{
 					display: none !important;
+				}
+				.entry-content .wp-block-heading{
+					font-size: 2.5em !important;
 				}
 			}
 		</style>

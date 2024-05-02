@@ -1326,6 +1326,7 @@ ul li div {
 }
 
 .entry-content h2 a {
+	font-weight: bold;
 	text-decoration: none;
 }
 
