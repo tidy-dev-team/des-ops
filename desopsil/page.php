@@ -108,10 +108,13 @@ endif;
 				cursor: pointer;
 				text-decoration: none !important;
 			}
-			
+
 			@media only screen and (max-width: 800px) {
 				.entry-content ul li {
 					width: 100% !important;
+				}
+				.entry-content .wp-block-buttons{
+					display: none !important;
 				}
 			}
 		</style>
